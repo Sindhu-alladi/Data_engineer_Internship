@@ -1,0 +1,858 @@
+employee_id,employee_name,gender,date_of_birth,email,phone,department,designation,city,state,join_date,salary,employment_status
+1,Dev Kumer,Male,1973-01-30,esengupta@example.net,03170669074,Operations,Manager,Gudivada,Bihar,2023-10-04,960930,On Leave
+2,Anthony Bal,Female,2001-11-25,rajtarak@example.com,0837783533,IT,Executive,Ramagundam,Andhra Pradesh,2024-08-06,426183,Resigned
+3,Quincy Minhas,Female,1973-04-14,xiti68@example.net,+914497869073,Finance,Engineer,Vijayanagaram,Sikkim,2022-07-12,395986,On Leave
+4,Kavya Chadha,Male,1994-12-06,gademaya@example.com,00704999622,HR,Manager,Ahmedabad,Tripura,2022-10-02,678941,On Leave
+5,Nidhi Varkey,Male,1988-06-15,tripti48@example.net,0682883607,Admin,Analyst,Jehanabad,Nagaland,2022-10-03,1106684,Active
+6,Vedhika Parikh,Female,1993-04-05,aarav88@example.net,5790328921,HR,Engineer,Patna,Uttarakhand,2021-08-27,1010916,Active
+7,Anay Sethi,Male,1966-01-18,zaid41@example.net,+915412248244,Operations,Executive,Pondicherry,Meghalaya,2025-01-31,321009,Active
+8,Arjun Muni,Female,1991-05-13,oviya34@example.org,08396030620,HR,Analyst,Amroha,Tamil Nadu,2025-05-13,1133552,Resigned
+9,Thomas Varty,Female,1995-09-27,azaanrana@example.net,5604230411,Finance,Executive,Bihar Sharif,Telangana,2022-05-27,807743,On Leave
+10,Zayyan De,Male,1965-08-20,kallatriveni@example.org,9806351396,Operations,Analyst,Kumbakonam,Bihar,2024-05-16,752413,Resigned
+11,Yamini Tata,Female,1966-03-25,neelima40@example.org,+915925634168,Operations,Analyst,Deoghar,Meghalaya,2025-08-02,839883,On Leave
+12,Dhruv Baria,Female,1970-10-27,omkaarganesan@example.net,+914598455514,Operations,Executive,Mahbubnagar,Tripura,2025-03-19,1111689,On Leave
+13,Hemang Nagi,Female,1967-09-21,ybora@example.org,+915199619839,Finance,Analyst,Shimoga,Kerala,2023-07-28,885485,On Leave
+14,Tanvi Malhotra,Female,1972-05-22,merchantadvik@example.net,0161033962,Finance,Analyst,Hospet,Goa,2023-02-10,914248,Active
+15,Harshil Saran,Female,1990-10-20,zehaan75@example.org,+915000495765,Finance,Engineer,Rajkot,Assam,2023-10-03,551743,On Leave
+16,Isaac Krishna,Male,1979-09-14,qparekh@example.org,3433514171,Finance,Manager,Ambattur,Madhya Pradesh,2023-09-01,372790,Resigned
+17,Falak Grover,Female,1986-08-12,yatan51@example.net,9913303614,IT,Executive,Aurangabad,Andhra Pradesh,2021-02-20,607994,Active
+18,Jagrati Tak,Male,1996-12-17,harrisonthaker@example.com,+918222254189,IT,Executive,Cuttack,Gujarat,2022-04-06,779652,Active
+19,Diya Jha,Female,1977-03-08,rachita82@example.org,3417684878,IT,Analyst,Hyderabad,Madhya Pradesh,2023-12-09,466870,On Leave
+20,Aarna Sunder,Female,1966-09-20,dbahl@example.net,09292244696,Finance,Analyst,Pudukkottai,Assam,2023-01-16,532577,Resigned
+21,Abhimanyu Goel,Male,2001-01-13,xiti73@example.org,07736589430,HR,Executive,Sasaram,Rajasthan,2024-03-11,1190355,On Leave
+22,Yasti Jani,Male,1986-04-11,chandani85@example.org,7911989622,Finance,Manager,Purnia,Gujarat,2025-11-25,404466,On Leave
+23,Warda Ramesh,Male,1988-09-27,kvarma@example.net,0814141291,Operations,Manager,New Delhi,West Bengal,2024-04-22,485660,On Leave
+24,Mekhala Gala,Female,1987-03-17,ndate@example.com,+911698614436,Admin,Executive,Jhansi,Mizoram,2024-10-15,980706,On Leave
+25,Azaan Kibe,Female,1982-10-12,oscarmane@example.org,3449472857,HR,Manager,Bhilai,Tripura,2022-11-01,411066,Resigned
+26,Samarth Mander,Male,1972-06-01,,02185946858,Operations,Engineer,Mumbai,Bihar,2024-10-26,949794,Active
+27,Inaya Mody,Male,2001-10-04,ynori@example.net,9716638049,HR,Executive,Surendranagar Dudhrej,Punjab,2025-06-14,1028454,On Leave
+28,Dalaja Garde,Female,1995-08-22,jagvivora@example.org,6966599173,Operations,Executive,Jaipur,Maharashtra,2022-05-20,406824,Active
+29,Anamika Gokhale,Female,1970-01-20,pallaaishani@example.net,08427472780,Finance,Analyst,Sasaram,Bihar,2024-08-25,556362,On Leave
+30,Isha Bhavsar,Female,1995-03-03,galayashica@example.net,+911649438335,HR,Engineer,Coimbatore,Assam,2025-07-04,1192800,Resigned
+31,Upadhriti Vaidya,Female,2003-01-03,gangulychameli@example.net,8459368627,Finance,Engineer,Phagwara,Karnataka,2022-12-12,1170811,Resigned
+32,Yash Balasubramanian,Female,1992-06-15,rachana34@example.org,+912979294782,Operations,Executive,Durgapur,Tamil Nadu,2024-10-21,311234,Resigned
+33,Dayita Rattan,Male,1981-06-04,jhaveridalaja@example.org,+913657120090,HR,Engineer,Visakhapatnam,Meghalaya,2025-07-21,479543,Resigned
+34,Hema Maharaj,Male,1973-02-03,girishkapadia@example.com,+917762334789,Admin,Analyst,Rajpur Sonarpur,Manipur,2023-04-02,687894,Resigned
+35,Watika Choudhry,Male,1979-08-12,batraalexander@example.org,05694362200,Operations,Executive,Ulhasnagar,Sikkim,2025-09-02,507077,On Leave
+36,Ladli Kumar,Male,1973-11-26,sherechavvi@example.org,+918082041613,HR,Analyst,Panchkula,Rajasthan,2022-03-01,841714,On Leave
+37,Rehaan Sem,Female,1991-07-31,,+919925698805,Operations,Manager,Siwan,Gujarat,2025-08-14,604596,Resigned
+38,Ekaraj Loke,Male,1969-12-23,peter12@example.org,+916001878515,Finance,Manager,Cuttack,Nagaland,2021-05-04,737282,On Leave
+39,Kabir Rana,Female,1995-06-01,vohraanamika@example.org,05140604524,HR,Analyst,Bhiwandi,West Bengal,2023-08-22,1023612,Active
+40,Pavani Korpal,Male,1999-04-09,ganganigam@example.net,09712788988,Operations,Analyst,Jalna,Telangana,2022-05-23,698186,Resigned
+41,Kamala Ramachandran,Male,2000-07-08,gunbir65@example.org,1048564554,Finance,Executive,Saharsa,Mizoram,2021-02-16,1138457,Active
+42,Manthan Nadig,Male,1987-03-20,ekapad74@example.com,05619020879,Admin,Manager,Sambalpur,Tamil Nadu,2025-12-08,375032,Active
+43,Janaki Prabhakar,Female,1992-06-15,,2024392126,Admin,Executive,Navi Mumbai,Nagaland,2023-04-26,689280,On Leave
+44,Samarth Lal,Male,1969-08-08,borateerth@example.net,+918609574339,IT,Executive,Noida,Maharashtra,2024-11-25,562091,Active
+45,Ranbir Subramaniam,Female,1970-01-02,nikita30@example.net,6871698996,HR,Executive,Nagercoil,West Bengal,2024-12-15,650818,Active
+46,Ranveer Mistry,Female,1965-06-07,mittalyauvani@example.net,08984868869,Operations,Manager,Bidhannagar,Jharkhand,2022-03-03,340400,Resigned
+47,Logan Gaba,Female,1982-04-04,samrabalhaar@example.com,06401106474,Finance,Engineer,Ongole,Tripura,2023-12-02,901404,Resigned
+48,Tanmayi Dada,Male,1997-12-23,maanav62@example.org,+914529464846,HR,Manager,Bhiwani,Karnataka,2025-03-10,627074,Active
+49,Vyanjana Ratti,Female,1993-12-27,bhattkai@example.org,+913014271620,Admin,Analyst,Purnia,Punjab,2021-06-28,456688,Active
+50,Pahal Palan,Female,1968-04-05,sainijagat@example.com,4270316174,Admin,Engineer,Singrauli,Bihar,2025-02-17,441577,Resigned
+51,Manthan Raju,Male,1978-10-01,aarinisaha@example.net,4783957105,HR,Executive,Pimpri-Chinchwad,Nagaland,2024-10-19,845033,Resigned
+52,Harrison Karnik,Female,1999-08-18,anamika36@example.org,+914368908982,Operations,Executive,Gopalpur,Himachal Pradesh,2025-02-20,832109,Resigned
+53,Amara Swamy,Female,1979-08-25,mpillai@example.com,+915292978208,Operations,Engineer,Dehri,Tamil Nadu,2022-03-16,727947,Active
+54,Divya Tak,Male,1997-10-01,jagat22@example.net,03180921393,Finance,Manager,Bhusawal,Karnataka,2021-02-03,325314,On Leave
+55,Dalaja Kannan,Male,1970-10-24,atiom@example.com,8601552142,Finance,Executive,Sri Ganganagar,Assam,2021-11-02,1034944,Active
+56,Charita Nadig,Male,1981-12-31,chandran50@example.org,+916531540851,Operations,Analyst,Cuttack,Punjab,2023-05-13,722473,Active
+57,Gavin Wable,Female,1997-06-03,zwason@example.com,+914820981233,Admin,Analyst,Panipat,Nagaland,2021-03-24,412850,On Leave
+58,Anika Wagle,Female,1982-11-14,zdate@example.net,+915185888909,Admin,Manager,Amroha,Sikkim,2022-03-07,741001,Active
+59,Falan Dhar,Male,1979-10-11,xnayak@example.com,+912676192449,Operations,Executive,Siwan,Andhra Pradesh,2022-03-08,515608,Active
+60,Harrison Sharaf,Male,1967-02-15,rsami@example.com,06970170001,IT,Manager,Bettiah,Mizoram,2024-02-01,1101103,Active
+61,Ishani Som,Male,1981-09-28,hiteshparmar@example.org,,Operations,Executive,Durg,Tripura,2023-12-17,995812,Resigned
+62,Wazir Venkataraman,Male,1974-11-19,omishaan@example.net,+918751907362,Operations,Manager,Ambattur,Bihar,2023-03-03,428151,Resigned
+63,Falguni Korpal,Female,1996-06-13,fpingle@example.net,3676819742,IT,Executive,Ahmedabad,Madhya Pradesh,2024-08-01,1010422,Active
+64,Atharv Borde,Male,1977-07-05,,02281407638,Finance,Executive,Kolkata,Nagaland,2023-03-07,647837,Resigned
+65,Nathan Gola,Male,1988-05-13,,+912690836308,Finance,Manager,Dibrugarh,Tamil Nadu,2025-08-15,1176607,Active
+66,Yug Rao,Female,1996-09-12,bavalila@example.org,1708300474,Operations,Engineer,Rourkela,Punjab,2022-03-10,770686,On Leave
+67,Saumya Thaker,Male,1993-06-23,megharamachandran@example.org,04524942915,Admin,Manager,Asansol,Himachal Pradesh,2023-03-24,538564,Resigned
+68,Ikshita Rajagopalan,Female,1984-01-20,jarya@example.org,03319893863,Operations,Analyst,Begusarai,Manipur,2024-05-20,536912,Resigned
+69,Fitan Brahmbhatt,Male,1975-06-23,balannidra@example.com,02992881362,Finance,Executive,Panihati,Sikkim,2024-06-07,1184521,Active
+70,Pranav Kar,Male,1985-04-29,ijayaswamy@example.net,01843704991,Operations,Engineer,Raiganj,Himachal Pradesh,2021-07-20,345454,On Leave
+71,Diya Dutta,Male,1974-01-25,chowdhuryradhika@example.net,3388613682,Finance,Manager,Delhi,Tamil Nadu,2022-01-31,581921,Resigned
+72,Kritika Subramaniam,Male,2002-02-22,amritabarad@example.net,+918836466471,Operations,Engineer,Gaya,Nagaland,2021-03-11,862003,On Leave
+73,Chaitanya Suresh,Male,1979-08-24,vyohannan@example.org,+911067329838,HR,Analyst,Nagaon,Kerala,2022-09-25,433093,Resigned
+74,Jagvi Bhattacharyya,Male,1988-04-07,shankerchaitanya@example.net,+912470981961,Admin,Executive,Anand,Uttarakhand,2025-12-04,1199261,On Leave
+75,Meera Loyal,Female,1989-01-09,jbawa@example.com,+916495299841,Admin,Manager,Vijayanagaram,Madhya Pradesh,2025-06-24,1141472,Resigned
+76,Ishaan Bansal,Female,2004-02-09,chaudhurigaurangi@example.com,08059171875,IT,Analyst,Nanded,Karnataka,2024-02-16,472194,Active
+77,Madhav Divan,Female,1972-05-26,gnadig@example.com,05495013468,Finance,Analyst,Chapra,Uttar Pradesh,2021-10-07,589479,Active
+78,Onkar Loke,Female,1993-03-21,datebarkha@example.net,4331470843,Operations,Engineer,Jamalpur,Karnataka,2023-12-12,323445,Active
+79,Zaitra Deol,Male,1967-06-17,zpatla@example.net,+910562809862,Finance,Executive,Muzaffarpur,Bihar,2026-01-20,759388,Resigned
+80,Yashawini Das,Female,1983-03-15,yhegde@example.org,07595300702,HR,Executive,Suryapet,Arunachal Pradesh,2021-02-18,336729,Resigned
+81,Frado Viswanathan,Female,1976-11-07,wablesai@example.org,04378556139,IT,Analyst,Maheshtala,Sikkim,2023-08-01,505146,Active
+82,Urvi Patla,Male,1966-08-20,,9969551638,Operations,Analyst,Narasaraopet,Odisha,2025-09-26,949998,Resigned
+83,Shivani Sinha,Male,1976-04-24,charvi96@example.net,4440907753,IT,Analyst,Bhagalpur,Tamil Nadu,2025-02-07,857454,Active
+84,Maanav Rajagopalan,Male,1994-10-27,choudhryishani@example.org,08046055490,Admin,Analyst,Jodhpur,Karnataka,2022-01-28,949146,On Leave
+85,Kabir Menon,Male,1992-12-08,viraj02@example.net,9544668713,IT,Manager,Ahmednagar,Punjab,2021-06-01,1113693,Resigned
+86,Udarsh Kohli,Male,1991-12-01,nkade@example.org,4504772205,Finance,Executive,Begusarai,Karnataka,2025-06-03,693594,On Leave
+87,Eesha Choudhury,Female,2004-10-09,anya60@example.com,+917183946530,Operations,Engineer,Kavali,Mizoram,2025-06-06,435418,On Leave
+88,Kai Master,Male,1968-05-07,kamdaraarush@example.net,+916010008550,Finance,Analyst,Karaikudi,Gujarat,2025-01-17,1100377,Resigned
+89,Amaira Merchant,Male,2004-08-23,vivaan23@example.com,+913870556109,IT,Analyst,Dibrugarh,Rajasthan,2021-11-08,704780,Active
+90,Tejas Kar,Male,1977-01-26,guneet05@example.net,+911723045091,IT,Analyst,Kollam,Uttar Pradesh,2022-12-29,747436,Active
+91,Jagdish Bhandari,Female,1978-10-30,daliagagan@example.net,+914486304355,Finance,Engineer,Malda,Tripura,2024-04-23,342467,On Leave
+92,Gaurav Sandhu,Female,1981-09-11,loza@example.net,1316484556,Operations,Manager,Bharatpur,Kerala,2023-09-29,533098,On Leave
+93,Urishilla Vaidya,Female,1966-03-23,,2822722219,HR,Engineer,Noida,Kerala,2023-09-27,562744,On Leave
+94,Aradhana Solanki,Female,1986-02-19,sanghamitesh@example.net,07125127800,Admin,Manager,Raurkela Industrial Township,Telangana,2024-03-03,303399,Active
+95,Yahvi Prasad,Male,1988-05-03,goyalkeya@example.org,09303459635,Operations,Manager,Ahmednagar,Jharkhand,2025-11-22,481619,On Leave
+96,Rohan Chatterjee,Female,1974-04-11,jyotitoor@example.com,+912314988898,Finance,Engineer,Bahraich,Odisha,2025-05-29,895372,Resigned
+97,Qadim Vala,Female,1989-04-05,rachitaborah@example.com,+913223027520,IT,Engineer,Gwalior,Punjab,2023-01-28,465494,Active
+98,Gagan Sastry,Male,1978-06-02,nitesh90@example.org,07800578527,HR,Manager,Sasaram,Karnataka,2025-11-18,1193761,On Leave
+99,Eesha Chakraborty,Male,1997-10-14,ojasvi14@example.org,5025354447,Finance,Manager,Ahmedabad,Jharkhand,2022-06-09,412785,On Leave
+100,Chanakya D’Alia,Female,1994-06-02,rkalla@example.com,9794942525,HR,Analyst,Sikar,Kerala,2025-07-01,800168,Resigned
+101,Meghana Sengupta,Male,1975-04-09,ckibe@example.net,3110887975,Operations,Manager,Phusro,Tamil Nadu,2025-04-14,472875,Active
+102,Agastya Raju,Male,2002-09-01,,00557384175,IT,Manager,Nanded,Chhattisgarh,2024-10-25,977791,Active
+103,Januja Nazareth,Female,1976-11-10,,+919072836715,Admin,Executive,Durgapur,Goa,2023-11-12,1011891,Resigned
+104,Pranit Wagle,Male,1986-01-11,prishasidhu@example.com,8428984934,HR,Engineer,Chennai,Uttarakhand,2023-12-14,759022,Active
+105,Pavani Rai,Female,1999-12-15,riasengupta@example.net,05301118627,IT,Executive,South Dumdum,Meghalaya,2024-11-15,591583,On Leave
+106,Rishi Sengupta,Male,1998-04-15,wmannan@example.org,4208018375,Admin,Executive,Thanjavur,Telangana,2021-12-02,794981,On Leave
+107,Chatura Sidhu,Female,1983-12-28,vshroff@example.net,+912686978252,IT,Engineer,Durgapur,Punjab,2022-09-14,873169,Resigned
+108,Tarak Setty,Female,1975-08-29,chauhanpavani@example.org,02585460677,Operations,Engineer,Avadi,Rajasthan,2025-12-31,343305,On Leave
+109,Dhriti Mann,Male,1976-11-28,,+917181855785,Admin,Engineer,Kishanganj,Odisha,2024-12-28,1105677,On Leave
+110,Vedhika Ramesh,Female,2001-07-20,ojaskhosla@example.net,+919305905605,IT,Executive,Mirzapur,Punjab,2024-07-14,803298,Active
+111,Bhavya Kapur,Male,1986-05-25,qrajagopalan@example.org,+916599331956,Operations,Engineer,Durg,Bihar,2024-09-30,519517,Active
+112,Indali Chander,Male,1992-10-23,isaacwalla@example.net,+915266588433,HR,Executive,Dehradun,Nagaland,2022-06-03,310509,On Leave
+113,Jagdish Sathe,Male,2004-11-12,raaginidesai@example.com,5920523379,Admin,Manager,Visakhapatnam,Rajasthan,2021-10-26,704728,On Leave
+114,Upasna Dhar,Male,1979-04-14,lakshit45@example.org,07087333040,Admin,Manager,Kadapa,Gujarat,2021-09-01,396367,Active
+115,Imaran Ratta,Female,1987-08-23,sehgalvasudha@example.net,02655666583,IT,Engineer,Amritsar,Chhattisgarh,2023-01-30,1099522,On Leave
+116,Ansh Khosla,Female,1991-11-04,ksastry@example.org,+912800646235,Operations,Analyst,Tiruvottiyur,Odisha,2021-06-16,783843,Resigned
+117,Kai Virk,Female,1989-10-31,pallajacob@example.org,1620522407,Operations,Analyst,Karawal Nagar,Assam,2024-09-21,1107630,On Leave
+118,Upma Thaker,Male,1971-08-26,meerarout@example.org,6757113995,HR,Executive,Jalandhar,Kerala,2021-12-15,548270,Active
+119,Indrajit Chahal,Female,1965-04-21,fkeer@example.com,09096846090,IT,Manager,Udupi,Meghalaya,2024-10-12,462703,Active
+120,Amruta Nagy,Male,1997-07-26,dwalla@example.com,2774992586,Operations,Manager,Karaikudi,Punjab,2024-06-11,564664,Active
+121,Thomas Mohan,Male,1966-03-23,divanwakeeta@example.org,04484218270,IT,Executive,Nandyal,Telangana,2025-11-26,596034,Active
+122,Kamya Dass,Female,1966-01-20,amrutabhattacharyya@example.com,00480961159,HR,Executive,Mysore,Punjab,2025-04-18,613141,Active
+123,Caleb Guha,Female,1976-08-07,,8432823318,IT,Engineer,Phusro,Maharashtra,2023-04-29,1176443,Resigned
+124,Bhavika Kothari,Male,1969-10-16,dakshesh06@example.net,07661230665,Operations,Executive,Sasaram,Chhattisgarh,2022-07-30,1183933,Active
+125,Veer Bhargava,Female,1989-12-07,sekhonekanta@example.org,+914286179074,HR,Engineer,Jalna,Gujarat,2022-03-09,704409,Active
+126,Bakhshi Raja,Male,1996-02-29,,1496385133,HR,Manager,Ramgarh,Bihar,2022-07-27,885227,Resigned
+127,Jagrati Sant,Male,1992-04-20,obajwa@example.com,+916204696139,HR,Manager,Nangloi Jat,Punjab,2024-08-24,664393,Active
+128,Yashoda Chhabra,Female,1987-03-26,aashibakshi@example.net,1574142166,HR,Engineer,Nangloi Jat,Odisha,2022-02-28,461125,Resigned
+129,Vyanjana Kaul,Male,1999-09-21,puridavid@example.com,1307149050,Operations,Executive,Srinagar,Uttarakhand,2021-06-10,584428,Active
+130,Irya Morar,Male,1971-03-28,uparmar@example.org,5835933344,HR,Engineer,Barasat,Odisha,2021-02-04,968625,Active
+131,Zayyan Karpe,Female,1975-02-06,neelchad@example.com,03228915632,Operations,Engineer,Amroha,Gujarat,2024-06-18,1064130,On Leave
+132,Deepa Kannan,Male,1984-10-08,fnayar@example.org,+913187870927,IT,Manager,Panvel,Bihar,2022-09-10,1025927,On Leave
+133,Yagnesh Morar,Female,1979-08-20,darika45@example.com,00007031574,HR,Executive,Shahjahanpur,Sikkim,2022-01-01,326333,On Leave
+134,Ayushman Hayer,Male,1974-04-17,sarrafayush@example.net,+917280321025,Finance,Analyst,Hazaribagh,Nagaland,2023-04-11,764876,On Leave
+135,Mitali Anand,Male,2002-01-23,indira48@example.com,08887412796,Finance,Manager,Tadipatri,Gujarat,2025-07-12,580160,Active
+136,Zansi Behl,Male,1986-08-22,theodorenagar@example.com,+916978102868,HR,Executive,Tinsukia,Himachal Pradesh,2021-06-07,326643,On Leave
+137,Rishi Modi,Male,1990-12-09,zarna09@example.com,+918882313720,Finance,Executive,Ichalkaranji,Andhra Pradesh,2022-05-05,774136,Active
+138,Balveer Sani,Male,1997-05-17,tejassidhu@example.net,+916312587785,Admin,Executive,Ballia,Haryana,2024-10-28,1017149,Resigned
+139,Netra Parekh,Female,1991-05-06,,9510697071,HR,Analyst,Malda,Kerala,2025-05-30,496957,On Leave
+140,Gautami Bansal,Female,1983-11-21,kai92@example.com,4737608414,Admin,Analyst,Nagpur,Odisha,2021-10-10,939002,Resigned
+141,Yoshita Golla,Female,1979-12-16,faris27@example.com,07719791000,Operations,Analyst,Vadodara,Himachal Pradesh,2023-09-14,1068437,Resigned
+142,Vansha Nazareth,Female,1966-03-21,poommen@example.org,00078362231,Admin,Analyst,Thane,Goa,2023-10-13,821576,On Leave
+143,Suhani Yohannan,Male,2000-11-22,balvansami@example.org,08730966686,IT,Executive,Mango,Karnataka,2025-11-10,697156,Resigned
+144,Farhan Sodhi,Male,1993-08-05,qushidyal@example.net,,IT,Analyst,Suryapet,Madhya Pradesh,2023-06-29,585186,On Leave
+145,Jagrati Wali,Male,1980-05-28,anmol14@example.net,02494702713,Operations,Executive,Gorakhpur,Madhya Pradesh,2021-07-16,1199702,Active
+146,Ekansh Chandran,Male,1996-12-08,dbakshi@example.com,+918735971556,HR,Manager,Ramagundam,Assam,2023-01-03,690861,Resigned
+147,Ikshita Sane,Male,1994-05-31,llata@example.org,+915561959221,Operations,Engineer,Morena,Tamil Nadu,2023-01-15,387839,Resigned
+148,Neel Jani,Male,1985-05-29,lakshitratta@example.com,05081053236,IT,Engineer,Sasaram,Odisha,2023-05-18,572488,Resigned
+149,Hamsini Subramaniam,Male,1988-03-29,bhaktaliam@example.net,7210102437,HR,Executive,Hosur,Mizoram,2023-05-14,1024713,On Leave
+150,Leena Cheema,Female,1991-12-17,ekhurana@example.net,5290604509,Admin,Analyst,Ratlam,Odisha,2021-02-21,545479,On Leave
+151,Manya Behl,Male,2004-10-13,bchatterjee@example.com,1900896526,Operations,Manager,Asansol,Uttar Pradesh,2023-06-27,1153420,Resigned
+152,Ojas Singh,Female,1985-01-16,bakhshi68@example.net,02527698281,IT,Analyst,Bhilwara,Madhya Pradesh,2025-03-20,610723,Resigned
+153,Bina Dutta,Male,1983-05-09,hmahal@example.com,+911172733031,Admin,Engineer,Jalandhar,Telangana,2021-05-17,362931,On Leave
+154,Caleb Krishnan,Male,1993-04-18,idikacomar@example.org,09932897259,Admin,Manager,Anand,Uttar Pradesh,2025-11-11,1160576,Resigned
+155,Eshana Wagle,Male,1969-11-08,aurorachanchal@example.org,01004849947,Finance,Analyst,Kochi,Uttar Pradesh,2022-12-16,912162,On Leave
+156,Jeremiah Upadhyay,Male,1999-03-09,pausanya@example.org,02415435928,Operations,Engineer,Srikakulam,Andhra Pradesh,2023-01-05,886485,On Leave
+157,Jagrati Datta,Female,1992-11-06,prisha97@example.org,00848533336,Admin,Executive,Bardhaman,West Bengal,2021-01-25,450457,Active
+158,Yashawini Dey,Female,1994-03-02,,+913166217832,Finance,Manager,Darbhanga,Kerala,2023-11-01,583438,Resigned
+159,Zayan Dixit,Male,1967-03-04,aarinisubramaniam@example.net,0502343165,IT,Engineer,Jhansi,Bihar,2021-02-04,519067,Resigned
+160,Harinakshi Narayan,Male,1992-12-26,aarini69@example.com,09163975401,HR,Executive,Tirunelveli,Punjab,2022-12-22,805011,Resigned
+161,Chaaya Sampath,Female,1992-03-05,birmekhala@example.org,9376716273,Admin,Executive,Proddatur,Tripura,2021-05-13,637785,On Leave
+162,Chaaya Dewan,Female,1982-02-23,vamakshi26@example.com,5340489474,IT,Manager,Kozhikode,Jharkhand,2023-04-18,900924,Active
+163,Manthan Lad,Female,1991-05-31,utalwar@example.org,00193508406,HR,Analyst,Tadipatri,Rajasthan,2023-10-24,340642,Active
+164,Advaith Padmanabhan,Male,1981-06-27,,+910507024936,Admin,Engineer,Dehradun,Arunachal Pradesh,2021-05-21,1106907,Resigned
+165,Madhavi Choudhury,Male,1990-12-01,rajata03@example.com,09979398156,Operations,Analyst,Noida,Mizoram,2025-03-08,511513,Resigned
+166,Oni Rana,Female,1979-11-27,aarav40@example.com,+912947641407,IT,Analyst,Rohtak,Nagaland,2022-10-31,416002,Active
+167,Brijesh Rastogi,Female,2002-07-18,thakurchameli@example.org,6514293129,Finance,Executive,Bettiah,Odisha,2021-04-03,312645,On Leave
+168,Nidra Badami,Female,1965-05-07,dgill@example.net,06323197885,Finance,Analyst,Nellore,Mizoram,2023-03-26,454776,Active
+169,Yug Master,Male,1982-08-08,amairapathak@example.net,4833801342,HR,Manager,Muzaffarnagar,Goa,2021-05-02,927784,Active
+170,Lipika Lala,Female,1982-08-01,advikaprashad@example.org,+912764565934,Finance,Manager,Bilaspur,Meghalaya,2022-05-10,620718,Resigned
+171,Lohit Ramakrishnan,Female,1969-03-22,,+917404509766,HR,Engineer,Ambarnath,Punjab,2025-03-10,473943,Resigned
+172,Rachana Raman,Female,1984-09-27,buchnaveen@example.net,05966160693,HR,Executive,Berhampur,West Bengal,2025-02-13,818390,On Leave
+173,Oscar Deol,Male,1980-01-14,,02679208332,Finance,Manager,Panipat,Nagaland,2021-03-02,738608,Active
+174,Kamya Mangal,Male,1979-08-31,munimanbir@example.org,+912964213296,HR,Engineer,Singrauli,Nagaland,2025-03-24,466413,Resigned
+175,Devansh Tara,Male,1981-07-31,elijahdoshi@example.org,+919928419515,Admin,Manager,Mangalore,Sikkim,2025-11-17,1197028,Active
+176,Rachita Kant,Female,1973-08-23,saranpriya@example.com,+917865920059,Finance,Engineer,Nanded,Sikkim,2025-01-09,1139150,On Leave
+177,Indira Dugal,Female,1996-03-07,vanshawason@example.com,3293411368,HR,Executive,Dewas,Meghalaya,2021-07-31,457826,On Leave
+178,Samar Bera,Male,1986-01-31,shivansh60@example.com,06312806208,Finance,Manager,Shivpuri,Kerala,2025-09-23,368093,On Leave
+179,Ayush Sarin,Female,1991-07-18,zarnaanand@example.net,0350272722,Finance,Analyst,Dibrugarh,Madhya Pradesh,2021-11-05,693441,On Leave
+180,Ekavir Rajagopal,Female,1997-12-28,shivansh08@example.com,+917323385479,HR,Engineer,Kakinada,Jharkhand,2022-02-07,519157,Resigned
+181,Balhaar Murty,Female,1971-02-11,tanmayizachariah@example.org,02802557367,HR,Executive,Singrauli,Kerala,2021-02-20,404590,On Leave
+182,Siddharth Parekh,Male,1990-07-17,chandransanaya@example.com,02435530002,IT,Engineer,Anantapur,Tamil Nadu,2021-05-15,1070462,Resigned
+183,Anita Bhatti,Female,1982-01-24,deodika@example.com,07061463389,HR,Analyst,Tezpur,Himachal Pradesh,2021-02-22,976081,Resigned
+184,Max Soman,Male,1975-03-18,faras93@example.net,8226295322,IT,Manager,Warangal,Tripura,2021-05-04,719576,Resigned
+185,Anjali Pandey,Female,1965-07-25,abhirambhatt@example.com,6642665754,IT,Manager,Gaya,Himachal Pradesh,2021-02-14,497865,Resigned
+186,Victor Bera,Male,1999-01-18,amblefariq@example.net,00326963994,HR,Executive,Bellary,Goa,2021-10-29,708586,Active
+187,Idika Chadha,Male,1973-05-12,samarthnarasimhan@example.net,7169522915,HR,Manager,Kumbakonam,Punjab,2021-09-24,1016602,On Leave
+188,Raagini Kamdar,Female,1969-05-17,krishnamurthyfalguni@example.com,09568991365,IT,Manager,Sri Ganganagar,Tamil Nadu,2022-01-26,813181,Resigned
+189,Forum Anand,Female,1980-05-22,nirja23@example.com,8902940149,Finance,Analyst,Bokaro,Tamil Nadu,2025-10-21,684365,Active
+190,Yug Sidhu,Male,1994-05-21,dhaliwalwaida@example.com,4619628367,Operations,Engineer,Gudivada,Telangana,2024-02-18,948636,Active
+191,David Jani,Male,1977-12-15,,8868623038,Finance,Executive,Bhatpara,West Bengal,2025-09-21,493500,Resigned
+192,Aryan Dhar,Female,2002-02-13,victor55@example.net,+911465908070,Admin,Analyst,Bijapur,Jharkhand,2024-05-15,826038,On Leave
+193,Lekha Subramanian,Male,1985-02-09,aptehitesh@example.com,+913103713534,Admin,Manager,Kirari Suleman Nagar,Manipur,2025-10-21,814009,On Leave
+194,Turvi Puri,Female,1970-09-29,borahcharvi@example.net,7346296673,Operations,Engineer,Kumbakonam,Andhra Pradesh,2023-07-19,400183,Resigned
+195,Urvi Tak,Male,1989-01-06,dartanish@example.net,06360266582,Operations,Analyst,Anand,Tamil Nadu,2022-06-01,481396,Active
+196,Simon Thakkar,Female,2002-01-17,tmukherjee@example.com,+910769565343,HR,Executive,Gangtok,Meghalaya,2023-05-14,480179,Active
+197,Bhavani Malhotra,Male,1995-04-06,choudhryeshana@example.com,4838532243,Finance,Executive,Ludhiana,Sikkim,2024-09-15,412656,Resigned
+198,Umang Deshpande,Female,1969-12-14,gandhiupadhriti@example.net,6349640421,Finance,Engineer,Ichalkaranji,Telangana,2023-08-13,894869,On Leave
+199,Darsh Dixit,Male,1971-09-08,zarnasura@example.com,,Finance,Analyst,Firozabad,Telangana,2023-05-21,815077,Active
+200,Bhavini Vaidya,Male,1988-01-28,banikkabir@example.org,05572404089,IT,Manager,Bidar,Nagaland,2025-01-01,741261,Active
+201,Yashodhara Ramachandran,Female,1972-04-14,,03590678530,HR,Manager,Chittoor,Meghalaya,2023-03-10,1068198,Active
+202,Yutika Chaudhuri,Female,1993-05-19,svarty@example.org,+916253175199,Finance,Manager,Salem,West Bengal,2022-10-15,360378,Resigned
+203,Nathan Dyal,Female,1987-07-18,joshichaaya@example.net,1797876588,HR,Analyst,Akola,Uttarakhand,2022-04-08,689869,On Leave
+204,Parth Morar,Male,1977-02-12,sarthakdesai@example.net,+917217886696,HR,Executive,Nandyal,Himachal Pradesh,2025-02-12,451536,Resigned
+205,Rudra Radhakrishnan,Female,1967-06-14,logan73@example.org,07053249975,Admin,Analyst,Ghaziabad,Rajasthan,2021-08-09,1087183,On Leave
+206,Elijah Borah,Female,1965-01-27,bordegagan@example.org,4036545326,Finance,Engineer,Raichur,Bihar,2024-08-26,733603,On Leave
+207,Gauri Thakkar,Male,1971-12-21,bhallamanbir@example.com,3312780594,Admin,Analyst,Jamnagar,Manipur,2021-07-02,408191,On Leave
+208,Bhavya Dutta,Female,1966-09-20,arjun24@example.org,+914977312403,Admin,Executive,Akola,Haryana,2024-12-20,795197,Active
+209,Aarush Hayre,Male,2003-09-10,onkar41@example.org,03648242481,IT,Analyst,Nagaon,Bihar,2022-10-31,429745,Active
+210,Mugdha Chaudhari,Female,1967-02-15,psood@example.org,07752378388,IT,Analyst,Durgapur,Maharashtra,2022-09-29,827059,Active
+211,Vyanjana Kari,Male,1968-05-14,ishwarpatil@example.org,0365677799,Finance,Engineer,Serampore,Arunachal Pradesh,2022-10-15,1164546,Active
+212,Kalpit Vasa,Male,1972-06-04,,+913363445303,IT,Executive,Farrukhabad,Goa,2022-01-11,818588,On Leave
+213,Ijaya Dubey,Female,2003-07-25,dswaminathan@example.net,+913950132362,Admin,Engineer,Rewa,Odisha,2024-01-20,1052936,On Leave
+214,Baljiwan Shah,Female,2004-02-02,,+911644087407,HR,Analyst,Haldia,Telangana,2024-12-06,1188773,On Leave
+215,Onkar Vaidya,Female,1967-11-12,mkunda@example.com,+911926694921,Admin,Analyst,Mathura,Tamil Nadu,2023-06-08,405817,On Leave
+216,Sudiksha Sandal,Female,1966-03-18,,+916078780614,IT,Manager,Madhyamgram,Bihar,2025-08-02,793597,On Leave
+217,Nirja Bala,Male,1982-12-03,manneaashi@example.com,0280351246,IT,Executive,Vijayawada,Mizoram,2025-04-10,584199,Resigned
+218,Pooja Pau,Female,1975-03-28,,4781820139,Admin,Analyst,Nangloi Jat,Mizoram,2022-04-26,957100,On Leave
+219,Kevin Samra,Female,1968-02-26,parekhdevika@example.net,05546677559,Admin,Analyst,Saharanpur,Uttar Pradesh,2022-03-09,410778,Active
+220,Zashil Krishnan,Male,1994-02-16,sbava@example.net,05727272351,IT,Engineer,Tirunelveli,Uttar Pradesh,2024-08-17,844577,Resigned
+221,Daksha Madan,Female,1980-01-31,srinivasanishita@example.org,07670647825,Operations,Manager,Tiruppur,Telangana,2024-04-19,1037240,Active
+222,Indrajit Nagy,Female,1974-11-02,zverma@example.com,2720365474,Operations,Analyst,Junagadh,Assam,2022-11-18,665586,Active
+223,Ekaja Ravel,Male,1984-11-26,charitasankaran@example.com,,HR,Engineer,Pune,Himachal Pradesh,2023-11-25,914036,Active
+224,Mohini Sharma,Male,1985-02-15,,+916750732523,HR,Manager,Tirunelveli,Jharkhand,2023-12-27,510826,On Leave
+225,Sarthak Bhat,Male,1995-12-27,ubika77@example.com,06135051687,IT,Executive,Ajmer,Gujarat,2021-08-21,631087,Active
+226,Watika Sur,Female,1996-12-11,udyati81@example.com,4819261261,Admin,Executive,Proddatur,Gujarat,2022-04-21,1016694,Resigned
+227,Isaiah Chaudhuri,Male,1970-08-20,jeet98@example.net,06616746769,Admin,Analyst,Berhampore,Punjab,2025-02-14,1054310,Resigned
+228,Hitesh Natarajan,Male,1983-12-10,alkabassi@example.org,+910055026790,IT,Executive,Jamalpur,Odisha,2024-06-22,689063,Resigned
+229,Megha Bhandari,Female,1966-12-06,wriddhishtiwari@example.com,6524929928,Finance,Manager,Ulhasnagar,Odisha,2023-01-27,630753,On Leave
+230,Azaan Kala,Male,1998-05-20,epatla@example.net,08063649085,Admin,Analyst,Anand,West Bengal,2023-02-22,390604,On Leave
+231,Aarini Dayal,Male,2000-07-08,qpillai@example.org,1567568776,Finance,Engineer,Nashik,Uttarakhand,2025-03-17,905061,On Leave
+232,Vihaan Chauhan,Male,1966-05-23,faraj27@example.org,+912712475230,Finance,Engineer,Raiganj,Nagaland,2025-10-08,713628,On Leave
+233,Baghyawati Korpal,Female,1965-10-23,upma23@example.org,+914142694276,HR,Manager,Raurkela Industrial Township,Punjab,2024-02-03,846205,Active
+234,Aarnav Zachariah,Female,1976-03-31,sdass@example.com,+915540234300,Operations,Executive,Jaunpur,Jharkhand,2022-12-13,769309,Active
+235,Faras Doctor,Female,1978-11-15,azaansarin@example.org,+917507985492,IT,Manager,Latur,Bihar,2024-11-25,821291,On Leave
+236,Victor Varkey,Male,1986-08-08,mohanmatthew@example.com,6410058205,IT,Manager,Kalyan-Dombivli,Arunachal Pradesh,2021-04-22,618558,Active
+237,Yug Balasubramanian,Male,1984-11-17,vtata@example.net,+913251525376,IT,Engineer,Sri Ganganagar,Punjab,2026-01-19,1022895,Resigned
+238,Yatin Kaul,Male,1971-07-13,gaurangmuni@example.net,01199538441,Admin,Manager,Vellore,Gujarat,2025-01-01,990130,Active
+239,Ronith Buch,Male,1994-08-02,,+914498976115,Finance,Analyst,Ongole,Sikkim,2024-05-31,772083,Active
+240,Gauri Doctor,Female,1983-04-30,rohan90@example.net,04512357590,HR,Executive,Berhampore,Chhattisgarh,2024-12-02,1094283,Resigned
+241,Yashodhara Kala,Male,1983-12-26,nachiket41@example.com,+915531636288,Admin,Manager,Munger,Andhra Pradesh,2024-05-03,589421,Active
+242,Meera Pal,Female,2000-03-10,udhingra@example.net,+918337765480,HR,Executive,Nagpur,Madhya Pradesh,2025-06-30,470253,Active
+243,Maanav Garde,Male,1982-09-21,rayishaan@example.net,06071913569,Operations,Engineer,Raurkela Industrial Township,Tamil Nadu,2023-03-11,603871,On Leave
+244,Nimrat Devan,Male,1980-02-15,pbatra@example.org,2952136085,HR,Engineer,Karnal,Sikkim,2024-10-08,421971,Resigned
+245,Inaya Rai,Male,1969-11-29,upadhritidave@example.com,5178664177,Admin,Analyst,Firozabad,Tamil Nadu,2021-03-06,562225,Resigned
+246,Pallavi Khalsa,Female,1988-12-15,,+912313453927,HR,Manager,Arrah,Uttarakhand,2021-05-22,481802,Active
+247,Lopa Wali,Male,1989-02-07,nilima48@example.com,01018443689,Admin,Analyst,Sambalpur,Himachal Pradesh,2021-11-02,305422,Active
+248,Manya Toor,Male,1984-08-22,vedika16@example.org,3718598101,HR,Executive,Sambalpur,West Bengal,2024-10-27,328174,Active
+249,Reyansh Bali,Female,1995-02-02,fredericksinha@example.org,+912727674094,Operations,Analyst,Kavali,Assam,2025-08-07,1085063,Active
+250,Bahadurjit Kaul,Female,2001-09-28,anthonyraj@example.org,+915681974536,Operations,Engineer,Rajkot,Madhya Pradesh,2023-03-15,553893,Resigned
+251,Henry Mittal,Female,1980-01-13,zarya@example.org,9131687848,Finance,Executive,Asansol,Meghalaya,2025-03-08,635566,Active
+252,Mason Dada,Male,1979-02-07,akshay79@example.com,+912567497956,IT,Engineer,Lucknow,Gujarat,2025-09-23,444862,On Leave
+253,Yatin Palan,Male,1994-07-18,,5338281820,IT,Manager,Chandrapur,Odisha,2023-11-24,835872,Active
+254,Pallavi Prabhu,Male,1979-01-25,,00204536336,Finance,Executive,Vijayanagaram,Odisha,2024-04-14,863000,Active
+255,Onveer Agarwal,Male,1979-03-14,bhandaribishakha@example.org,6952922827,Operations,Manager,Sultan Pur Majra,Goa,2023-07-04,1015128,Resigned
+256,Inaya Savant,Female,1981-07-20,karnikteerth@example.com,+916435763788,Finance,Manager,Ranchi,Haryana,2022-12-13,885333,On Leave
+257,Pallavi Dasgupta,Female,2002-01-28,sahapooja@example.net,09713063836,Operations,Engineer,Dindigul,Rajasthan,2021-12-13,370344,Resigned
+258,Chaitaly Trivedi,Female,1990-01-25,patrick68@example.org,,Admin,Manager,Rewa,Manipur,2024-08-08,1154773,Active
+259,Chatura Mangal,Male,1980-11-14,lukenayar@example.net,8499764554,Operations,Engineer,Malda,Madhya Pradesh,2023-11-11,688050,Active
+260,Shivansh Chandran,Female,1974-05-04,indiradhawan@example.net,7640652513,Finance,Manager,Bhagalpur,Madhya Pradesh,2025-05-25,610766,Resigned
+261,Upadhriti Kakar,Male,1972-09-20,lajitachoudhury@example.com,9377812050,Operations,Engineer,Bhavnagar,Tripura,2025-04-23,881963,Resigned
+262,Saksham Gulati,Male,1969-03-26,ronith74@example.net,+918788602304,Operations,Executive,Madurai,Goa,2021-04-05,740219,Active
+263,Bimala Uppal,Female,1975-02-28,lakshit24@example.net,+914793830396,Admin,Engineer,Raurkela Industrial Township,Sikkim,2024-04-25,1156940,Active
+264,Megha Chakrabarti,Male,1975-10-05,wdube@example.com,+910775559883,IT,Engineer,New Delhi,Maharashtra,2021-08-05,656470,On Leave
+265,Aarini Mistry,Male,2001-06-20,onatt@example.com,,Operations,Executive,Gudivada,Sikkim,2024-06-14,1118700,Resigned
+266,Yagnesh Sule,Male,1988-03-14,sai41@example.org,5220573900,HR,Manager,Morena,Manipur,2025-01-10,807837,Resigned
+267,Xavier Ravi,Female,1977-01-09,kibebhavani@example.com,+910136474417,Finance,Executive,Parbhani,Karnataka,2023-09-15,434215,Active
+268,Balendra Mishra,Female,1978-06-11,ucchal88@example.org,+915711654028,HR,Manager,Dindigul,Uttar Pradesh,2023-12-23,848755,Resigned
+269,Praneel Ben,Male,1996-11-29,nihal93@example.com,+919686141972,HR,Executive,Pallavaram,Rajasthan,2022-04-01,972050,Active
+270,Azaan Walla,Male,1997-09-03,williambasu@example.net,06974958585,HR,Engineer,Bokaro,Maharashtra,2022-12-13,868304,Active
+271,Kamya Kulkarni,Male,1981-08-09,ladbrinda@example.net,+914772198830,IT,Engineer,Baranagar,Assam,2025-10-12,904123,Active
+272,Omkaar Dhillon,Female,1994-07-16,ryan97@example.net,+910300165632,IT,Executive,Purnia,Arunachal Pradesh,2023-02-23,758611,On Leave
+273,Maya Chowdhury,Male,1990-03-18,kiaan68@example.net,+915707368169,HR,Engineer,Surat,Kerala,2025-06-07,727099,On Leave
+274,Vincent Rao,Male,1998-11-04,dpingle@example.org,09692253276,Finance,Engineer,Chennai,Kerala,2024-03-23,405000,On Leave
+275,Faris Rajagopal,Female,1974-01-10,dhaliwalchandran@example.net,04501223532,Finance,Executive,Davanagere,Maharashtra,2024-03-23,747611,Resigned
+276,Deepa Goswami,Female,1996-05-15,gokhalejairaj@example.org,2648301988,Admin,Executive,Agartala,Tamil Nadu,2025-01-20,1023598,Active
+277,Udyati Bumb,Male,2003-07-05,hitesh43@example.org,+911326629383,HR,Executive,Dharmavaram,Rajasthan,2022-05-12,968337,On Leave
+278,Leela Saxena,Female,1989-06-26,srivastavavinaya@example.org,+919428971514,Operations,Manager,Bikaner,Nagaland,2021-07-24,1186356,Active
+279,Fariq Din,Female,1999-01-31,orinderbakshi@example.net,0018570881,HR,Engineer,Malda,Odisha,2021-03-16,1190523,Resigned
+280,Ishani Sen,Female,1970-07-12,devansh22@example.net,+919639327158,Finance,Analyst,Kavali,Bihar,2025-08-26,885172,Active
+281,Xiti More,Female,1971-09-06,gaurang91@example.net,08799474878,IT,Analyst,Giridih,Chhattisgarh,2023-08-23,814533,Resigned
+282,Faras Mangal,Male,1967-05-14,fde@example.net,5419463368,HR,Executive,Rewa,Sikkim,2022-02-17,1084163,Active
+283,Brijesh Kulkarni,Female,1981-01-22,faris46@example.org,+913757618970,IT,Analyst,Davanagere,Madhya Pradesh,2025-11-13,372087,Resigned
+284,Kabir Deol,Male,1990-10-05,badamichatresh@example.com,,Operations,Analyst,Bathinda,Tripura,2024-10-27,886641,On Leave
+285,Anusha Edwin,Female,1985-06-28,bobalvarsha@example.net,,HR,Engineer,Nagaon,Tamil Nadu,2024-04-07,754523,On Leave
+286,Gopal Seshadri,Female,1980-08-13,chahalvamakshi@example.com,8405963628,IT,Engineer,Jabalpur,Meghalaya,2023-03-28,821061,Active
+287,Ekansh Das,Female,1991-03-17,lokekritika@example.org,+918516772604,Operations,Analyst,Katni,Madhya Pradesh,2024-11-26,922087,Active
+288,Xavier Yogi,Male,1973-12-15,taranetra@example.org,+917366604007,HR,Analyst,Bikaner,Tripura,2022-07-22,1186436,On Leave
+289,Yamini Puri,Female,1984-05-17,basakodika@example.net,+917240494098,Finance,Executive,Durg,Arunachal Pradesh,2025-03-15,1088987,Active
+290,Nihal Rajagopal,Female,1998-08-11,saumya06@example.org,00535232101,Operations,Manager,Aizawl,Karnataka,2025-04-01,449323,Resigned
+291,Ansh Rajan,Female,2004-05-14,vkeer@example.net,+918168638099,Operations,Analyst,Alappuzha,Uttar Pradesh,2024-05-11,350669,Resigned
+292,Kevin Sarkar,Male,1977-01-29,chowdhurychanchal@example.org,07782943418,HR,Executive,Sambalpur,Rajasthan,2025-10-14,465509,On Leave
+293,Adya Edwin,Male,1973-12-24,shereishanvi@example.org,3406770286,Admin,Manager,Satara,Jharkhand,2023-06-04,1095808,On Leave
+294,Ishita Wali,Male,1990-02-22,sanghvixavier@example.net,01531584095,Admin,Analyst,Kharagpur,Sikkim,2021-11-15,601056,On Leave
+295,Aarnav Gola,Female,1996-07-04,kalitakashvi@example.org,2627918472,HR,Manager,Saharanpur,Bihar,2022-03-11,591144,Resigned
+296,Meghana Edwin,Female,1977-06-21,bhavnachhabra@example.org,3093073964,Operations,Analyst,Sonipat,Kerala,2024-04-11,1093142,Active
+297,Rishi Nori,Female,1965-08-12,usekhon@example.org,+910847311392,Operations,Manager,Mathura,Tamil Nadu,2025-09-12,1049467,On Leave
+298,Anirudh Varghese,Male,1978-07-10,gbalay@example.org,02783305282,Operations,Engineer,Siwan,Haryana,2023-05-06,1167083,Active
+299,Samaksh Merchant,Male,1981-03-04,barmanforum@example.com,2265849083,Admin,Analyst,Ratlam,Meghalaya,2021-06-27,461180,Active
+300,Mohini Chaudhary,Male,1994-12-31,itak@example.net,+917132494016,IT,Executive,Jhansi,Mizoram,2023-11-20,905602,Resigned
+301,Samesh Sridhar,Male,2003-02-05,snehabarman@example.com,6600453378,IT,Engineer,Nandyal,Arunachal Pradesh,2025-09-18,851895,Resigned
+302,Jacob Nagy,Female,1985-06-10,skothari@example.net,+914948951568,Admin,Analyst,Bidhannagar,Uttarakhand,2025-02-17,913762,Active
+303,Guneet Goel,Female,2000-03-29,dsibal@example.org,+916643795968,Finance,Manager,Gudivada,Andhra Pradesh,2023-01-28,311557,On Leave
+304,Lekha Lall,Female,1983-03-18,gabameera@example.org,+913522491306,Operations,Manager,Sangli-Miraj & Kupwad,Chhattisgarh,2025-12-26,368063,On Leave
+305,Falak Gupta,Female,1973-06-07,wakeeta34@example.net,0932583361,Operations,Analyst,Ballia,Odisha,2023-05-08,549147,Resigned
+306,Aarnav Thakur,Female,1985-09-11,yzacharia@example.com,+915524497273,Operations,Analyst,Nandyal,Assam,2024-10-26,985207,Resigned
+307,Rachit Kurian,Male,1986-02-15,,+915293816348,Finance,Manager,Mira-Bhayandar,Sikkim,2025-11-08,868014,Active
+308,Geetika Ben,Male,1995-05-27,dalbir09@example.org,+915122339089,HR,Analyst,Alappuzha,Meghalaya,2021-07-26,1090686,Active
+309,Wridesh Chokshi,Male,1987-03-06,cgoda@example.net,,Admin,Analyst,Ujjain,Maharashtra,2021-07-29,702546,Active
+310,Aashi Bava,Female,1967-03-05,edube@example.org,08972380926,Operations,Manager,Ballia,Rajasthan,2021-01-24,1034746,On Leave
+311,Chakradhar Ranganathan,Female,1970-01-27,jahluwalia@example.org,6531650913,Admin,Analyst,Nagercoil,Tamil Nadu,2021-06-02,456882,Active
+312,Damini Saran,Male,1985-01-05,omvarkey@example.net,+910906337106,Admin,Engineer,Jamalpur,Jharkhand,2025-06-13,503184,Active
+313,Quincy Raman,Female,1978-02-17,edhitha11@example.net,+917086580174,HR,Manager,Adoni,Karnataka,2024-10-11,802548,On Leave
+314,Deepa Shanker,Female,1968-04-24,bhavyawali@example.org,1166816589,Finance,Engineer,Ramgarh,Meghalaya,2025-04-21,579707,On Leave
+315,Chaaya Shere,Male,1996-11-08,sathvikyogi@example.org,+910407723484,HR,Analyst,Guwahati,Uttarakhand,2022-08-16,666129,Resigned
+316,Ojas Garde,Female,1992-10-10,tanaysama@example.com,02836503240,IT,Analyst,Kamarhati,Punjab,2021-04-25,1046585,Resigned
+317,Aayush Vasa,Female,1967-05-11,anirudhyogi@example.com,6256397841,Finance,Analyst,Nagpur,Jharkhand,2025-07-12,1071362,Active
+318,Bhavini Bhakta,Male,1971-05-04,ishani18@example.com,00084553474,IT,Analyst,Berhampur,Maharashtra,2024-04-17,1167125,Resigned
+319,Nicholas Sachar,Male,1996-03-29,dkant@example.net,1866339202,Finance,Engineer,Etawah,Kerala,2021-11-08,545341,Resigned
+320,Wridesh Nagarajan,Female,1986-02-20,kumerradhika@example.com,05104623959,HR,Manager,Kolkata,Haryana,2025-09-10,376274,On Leave
+321,Tristan Dar,Female,1978-02-13,hansvihaan@example.org,05207930901,IT,Engineer,Maheshtala,Kerala,2021-08-04,432589,Resigned
+322,Teerth Nagar,Male,1991-09-04,onveer94@example.com,09533162545,IT,Manager,Faridabad,Mizoram,2021-07-16,998132,Active
+323,Radha Nori,Female,2000-10-28,wridesh48@example.com,08852281923,Finance,Analyst,Raebareli,Maharashtra,2023-04-19,754556,Active
+324,Dayamai Savant,Male,1995-07-01,shanirja@example.org,1498211357,HR,Manager,Ramagundam,Chhattisgarh,2023-06-02,1012230,Resigned
+325,Kai Suresh,Male,1987-08-10,indirabarad@example.org,,Admin,Analyst,Hyderabad,Rajasthan,2024-12-16,1052421,On Leave
+326,Vihaan Kalita,Male,1973-12-09,ldeo@example.net,+912505077107,IT,Executive,Eluru,Rajasthan,2023-04-26,682072,On Leave
+327,Baljiwan Vohra,Female,1967-08-24,,+919420917241,Admin,Executive,Ozhukarai,Chhattisgarh,2023-01-07,825976,On Leave
+328,Gayathri Sarraf,Female,1988-10-08,,2085948207,HR,Executive,Mirzapur,Odisha,2025-05-06,839337,Active
+329,Pushti Tata,Male,1997-03-09,nilima11@example.org,+915309909539,Finance,Manager,Gandhinagar,Arunachal Pradesh,2021-06-28,998835,Active
+330,Arunima Prasad,Male,1970-01-15,narasimhanpraneel@example.com,07226730823,HR,Executive,Jodhpur,Punjab,2021-04-12,495940,On Leave
+331,Rayaan Sethi,Female,1982-07-31,,3711333026,IT,Analyst,Gandhidham,Karnataka,2022-07-27,935136,On Leave
+332,Osha Chander,Male,1990-12-31,janaki18@example.net,08803455033,HR,Executive,Anantapur,Kerala,2024-10-20,907509,Active
+333,Indrajit Banik,Female,1979-04-24,faras64@example.net,3041492658,IT,Executive,Farrukhabad,Assam,2024-10-26,485500,On Leave
+334,Nihal Khatri,Male,2004-01-02,wallaayushman@example.org,+915919668695,Finance,Engineer,Bahraich,Jharkhand,2025-06-07,670046,On Leave
+335,Ranveer Dey,Female,2001-09-14,girish75@example.com,2017062922,Admin,Analyst,Singrauli,Nagaland,2022-09-13,539669,On Leave
+336,Isha Sachdeva,Female,1976-11-26,omaharaj@example.net,5980448423,HR,Engineer,Agra,Uttar Pradesh,2023-05-12,771486,Resigned
+337,Gagan Behl,Female,1969-08-02,fdeshmukh@example.com,6306204702,Operations,Analyst,Dhule,Rajasthan,2022-06-06,472063,On Leave
+338,Jonathan Bahl,Male,1990-08-21,raveljhalak@example.com,02558505721,Finance,Manager,Indore,Meghalaya,2021-12-09,683498,Active
+339,Madhavi Vyas,Male,1993-01-26,lalazaitra@example.com,+917308046155,IT,Engineer,Ghaziabad,Punjab,2023-05-07,406381,Resigned
+340,Samarth Arya,Female,1975-12-26,nbera@example.net,01808271080,HR,Analyst,Kamarhati,Andhra Pradesh,2025-07-31,341818,Resigned
+341,Yashvi Keer,Male,1994-09-08,surkashish@example.com,+913313241132,Finance,Executive,Hospet,Tripura,2023-04-02,491684,Resigned
+342,Yug Dhaliwal,Female,1976-10-10,paniniborde@example.com,8208040897,Finance,Analyst,Nellore,Odisha,2022-01-05,696739,Active
+343,Gautami Tella,Female,1999-05-07,nitesh94@example.com,08589610114,Operations,Manager,Kharagpur,Kerala,2023-11-07,985858,On Leave
+344,Manan Sastry,Female,1999-05-12,jkar@example.com,6542011717,IT,Executive,Bally,Bihar,2023-09-24,580398,Resigned
+345,Jairaj Gala,Male,2000-06-02,ftiwari@example.com,09151183737,IT,Engineer,Varanasi,Goa,2021-07-31,851819,Resigned
+346,Priya Narula,Female,1985-10-18,ishadhingra@example.net,1302564323,IT,Executive,Hajipur,Goa,2022-07-18,831874,Resigned
+347,Ucchal Dhar,Male,1984-03-26,naveen58@example.net,4332402206,IT,Analyst,Etawah,West Bengal,2024-11-15,405398,Resigned
+348,Priya Kalita,Female,1975-09-25,owen14@example.com,00842970769,Operations,Engineer,Surat,Andhra Pradesh,2021-06-04,555257,Active
+349,Ayush Kale,Female,1990-03-11,shravyabasu@example.net,+913438239358,HR,Engineer,Bhavnagar,Odisha,2021-11-27,918227,On Leave
+350,Naveen Shetty,Female,1999-01-08,,05955621175,HR,Engineer,Coimbatore,Madhya Pradesh,2021-03-27,589337,On Leave
+351,Aadi Deshmukh,Male,1985-03-24,daksha07@example.com,+919207960316,Admin,Engineer,Ballia,Jharkhand,2021-02-11,1125641,Resigned
+352,Wridesh Wali,Male,1991-04-05,januja03@example.net,6378028940,IT,Analyst,Tenali,Bihar,2021-06-19,714957,Active
+353,Vrishti Doctor,Female,1972-08-21,lkrishna@example.org,+918712578275,IT,Manager,Bihar Sharif,West Bengal,2025-03-04,899834,Active
+354,Chasmum Virk,Male,1967-01-14,yagneshcheema@example.net,01141432517,Admin,Analyst,North Dumdum,Mizoram,2025-09-13,1156146,Active
+355,Sanya Saraf,Male,1970-12-29,sidhuurmi@example.com,07766165012,IT,Manager,Chinsurah,West Bengal,2021-04-23,875258,On Leave
+356,Lipika Tripathi,Female,1987-07-12,balayamini@example.net,+917827461893,HR,Executive,Ratlam,Meghalaya,2024-09-16,620698,Resigned
+357,Azaan Wadhwa,Female,2003-01-13,gargnidhi@example.net,+914372581297,Operations,Executive,Bijapur,Arunachal Pradesh,2025-09-13,1149101,Resigned
+358,Amruta Tailor,Female,1975-10-01,wkrishnamurthy@example.com,04289399819,IT,Manager,Nizamabad,Bihar,2022-10-11,820551,Active
+359,Laksh Verma,Female,2004-09-19,icontractor@example.net,+912669205052,Admin,Executive,Arrah,Uttarakhand,2023-02-27,1173386,Resigned
+360,Omya Dugar,Female,1987-04-10,yagneshsrivastava@example.com,09889873219,HR,Executive,Malda,Chhattisgarh,2024-04-03,409689,Resigned
+361,Ansh Chandra,Female,1968-12-09,bhaktawishi@example.com,0744467114,HR,Executive,Raebareli,Gujarat,2023-01-21,1168889,Active
+362,Ekapad Mann,Male,1979-02-06,pallaamruta@example.org,+915521134310,Finance,Engineer,Madanapalle,Telangana,2024-04-07,1190999,Resigned
+363,Janya Bose,Male,1996-04-17,rnarula@example.com,08081220033,HR,Analyst,Tirupati,Rajasthan,2022-08-19,573743,Active
+364,Keya Vora,Male,2000-10-04,hegdeekalinga@example.org,+915353456507,Operations,Manager,Bhubaneswar,Manipur,2022-05-18,876377,Active
+365,Krishna Johal,Male,1986-06-01,wazir77@example.com,0757507699,Finance,Analyst,Morbi,Tamil Nadu,2023-07-03,683395,Resigned
+366,Yadavi Shere,Male,1980-11-02,mittalnicholas@example.com,+914284603997,HR,Engineer,Jalna,Rajasthan,2023-04-25,393508,Resigned
+367,Faraj Ramakrishnan,Female,1968-03-24,hayreurvashi@example.org,05479844926,Admin,Manager,Panchkula,West Bengal,2025-10-17,976020,On Leave
+368,Warinder Ray,Female,1995-06-23,ramdaksh@example.org,3531073025,Finance,Analyst,Dibrugarh,Himachal Pradesh,2022-10-23,446740,On Leave
+369,Nikita Vyas,Male,1969-06-23,aadhyabath@example.org,+910983252269,Admin,Manager,Delhi,Odisha,2023-11-21,674074,Active
+370,Tanveer Buch,Male,1997-11-11,kborah@example.com,0649893251,IT,Manager,Avadi,Gujarat,2025-11-11,909689,On Leave
+371,Advik Mand,Female,1979-03-07,,06971517470,HR,Analyst,Thoothukudi,Meghalaya,2021-02-22,909498,On Leave
+372,Jeremiah Bawa,Female,1991-11-29,katachatresh@example.com,5114423892,Operations,Manager,Pimpri-Chinchwad,Maharashtra,2024-10-19,424833,Resigned
+373,Advik Narula,Female,1994-08-16,vinaya07@example.com,00245312956,Finance,Executive,Bettiah,Tripura,2023-10-19,1143356,On Leave
+374,Vinaya Dhaliwal,Female,1979-04-26,gkale@example.org,+910017891258,HR,Analyst,South Dumdum,Telangana,2024-08-07,790053,Resigned
+375,Turvi Chopra,Male,1965-03-29,zpatla@example.net,+919529365388,Finance,Executive,Tirupati,Manipur,2022-10-25,930909,On Leave
+376,Max Kunda,Female,1968-09-14,ronithswaminathan@example.net,+910657863310,IT,Executive,Shimla,Punjab,2022-11-22,644808,Resigned
+377,Amruta Ramesh,Male,1973-06-19,chaudhariidika@example.org,+916464836600,HR,Manager,Serampore,Madhya Pradesh,2023-10-18,581185,Active
+378,Aradhana Seth,Female,1991-09-19,kabirsani@example.com,5958605150,HR,Manager,Pudukkottai,Kerala,2022-07-30,568766,Active
+379,Xalak Ghosh,Male,1993-11-05,kamya02@example.org,5778315063,Admin,Analyst,Tirupati,Maharashtra,2023-05-27,1122268,On Leave
+380,Rushil Sethi,Male,1972-08-29,agrawaludarsh@example.org,+919753310441,Operations,Engineer,Uluberia,Manipur,2024-08-29,853715,Active
+381,David Trivedi,Male,1985-09-25,shethtristan@example.org,9938499744,Admin,Manager,Suryapet,Rajasthan,2023-03-20,1122446,Active
+382,Peter Vora,Female,1976-05-21,,+912628853324,Admin,Engineer,Aurangabad,Tamil Nadu,2023-02-03,302929,Resigned
+383,Dalaja Anne,Male,1974-01-14,orandhawa@example.org,+919027643273,IT,Analyst,Medininagar,Himachal Pradesh,2025-07-05,523537,On Leave
+384,Triveni Manda,Male,1974-01-19,bachittarde@example.net,2908488205,HR,Manager,Bongaigaon,Uttar Pradesh,2022-08-23,1158433,Active
+385,Eshana Gour,Male,1979-06-03,waidakota@example.org,+910853674210,IT,Analyst,Vadodara,Jharkhand,2025-04-17,1020980,Active
+386,Jai Muni,Female,1990-04-23,william34@example.org,+915455013267,Admin,Analyst,Udupi,Andhra Pradesh,2024-12-30,672764,On Leave
+387,Kritika Pall,Female,1990-04-23,panand@example.com,1066562439,IT,Executive,Avadi,Andhra Pradesh,2024-09-01,1051265,Resigned
+388,Tanvi Ahluwalia,Female,1992-07-12,vamakshikunda@example.org,3329534506,Finance,Executive,Pune,Rajasthan,2025-01-13,1130618,Resigned
+389,Pavani Babu,Female,1972-07-02,yuvrajbahl@example.com,7213369955,Operations,Executive,Muzaffarnagar,Gujarat,2021-11-09,486878,Active
+390,Aradhana Palan,Female,1987-05-10,alalla@example.com,3173408953,IT,Executive,Chapra,Sikkim,2023-08-24,974397,On Leave
+391,Ronith Panchal,Female,1987-01-08,niharika16@example.org,7933577004,Operations,Engineer,Sasaram,Madhya Pradesh,2021-08-29,825506,On Leave
+392,Kabir Naidu,Female,1986-12-24,,,IT,Engineer,Barasat,Manipur,2025-05-10,364727,Active
+393,Abdul Dixit,Female,1997-06-17,cbahl@example.com,,Operations,Analyst,South Dumdum,Mizoram,2022-11-16,1056897,Resigned
+394,Harish Samra,Female,1989-08-23,pranitrajan@example.net,5952823483,Finance,Manager,Vijayawada,Gujarat,2025-11-04,1111506,On Leave
+395,Vyanjana Barad,Female,1986-12-08,falansanghvi@example.org,02735993427,Admin,Analyst,Bhopal,Bihar,2023-03-20,527548,On Leave
+396,Harshil Mander,Female,1978-11-04,vkar@example.org,01577783646,Finance,Analyst,Ramgarh,Madhya Pradesh,2024-06-06,380766,On Leave
+397,Hemang Patla,Male,1989-02-01,meghana77@example.org,3231092754,Admin,Executive,Hubli–Dharwad,Uttarakhand,2022-11-04,1080642,Active
+398,Zayyan Khare,Female,1971-07-29,omaja59@example.net,02878353852,Admin,Manager,Tenali,Tamil Nadu,2023-06-15,455810,On Leave
+399,Ayushman Banerjee,Female,1992-09-27,brijesh87@example.net,7848665471,IT,Manager,Jalgaon,Karnataka,2021-08-09,477865,Active
+400,Chatura Bhat,Female,1991-02-26,tarak26@example.org,05033464767,Admin,Executive,Bilaspur,Andhra Pradesh,2025-01-08,525547,Active
+401,Suhani Wable,Male,1994-01-18,jasmitsarkar@example.org,+919785980315,Admin,Engineer,Sultan Pur Majra,Assam,2023-10-28,512627,On Leave
+402,Gavin Venkataraman,Male,1989-12-03,gautamnatarajan@example.org,+915343869004,IT,Executive,Panchkula,Bihar,2025-03-12,386079,On Leave
+403,Ati Chatterjee,Male,1969-04-04,vinaya58@example.net,03662951874,IT,Engineer,Arrah,Gujarat,2023-11-12,689112,On Leave
+404,Jyoti Garde,Male,1995-05-11,zashil82@example.org,2501232880,HR,Executive,Kolhapur,Chhattisgarh,2023-12-12,413571,On Leave
+405,Ucchal Char,Female,1966-02-17,ydhingra@example.org,9218442951,IT,Engineer,Guwahati,Mizoram,2021-02-28,1124247,Resigned
+406,Jagvi Sarna,Female,1972-11-06,anaybakshi@example.net,1406828994,IT,Engineer,Ranchi,Andhra Pradesh,2025-11-07,458518,Active
+407,Raghav Ghose,Male,1973-04-14,chanakya41@example.net,+913003269320,Admin,Executive,Pallavaram,Arunachal Pradesh,2022-04-24,625259,Active
+408,Aadhya Shetty,Male,2003-04-09,hamsini97@example.com,+915777035315,Operations,Manager,Ranchi,Tripura,2022-08-23,803631,Active
+409,Xavier Sem,Female,1994-06-27,orinderbaral@example.net,5748448863,HR,Engineer,Tiruvottiyur,West Bengal,2023-09-06,386990,Resigned
+410,Eiravati Rai,Male,1982-11-04,fiyaztandon@example.org,08928917755,HR,Manager,Jorhat,Mizoram,2022-11-23,491918,Active
+411,Madhav Pant,Female,1988-05-22,noahhanda@example.net,,IT,Executive,Mangalore,Chhattisgarh,2023-01-09,1072664,Active
+412,Vidhi Ghose,Male,1999-09-15,dashguneet@example.org,7218120643,Operations,Analyst,Bahraich,Rajasthan,2025-03-20,925706,On Leave
+413,Wakeeta Sibal,Male,2004-01-08,harsh55@example.org,09646514240,Operations,Engineer,Bokaro,Goa,2024-04-23,461017,Resigned
+414,Yug Raval,Male,1976-09-06,hiral98@example.org,01965301361,IT,Manager,Jehanabad,Kerala,2024-01-26,1120253,On Leave
+415,Jackson Devi,Female,1976-05-03,shauryashroff@example.org,2747360012,HR,Executive,Muzaffarpur,Karnataka,2023-09-28,448704,Resigned
+416,Omisha Sodhi,Male,1974-07-02,mahajanishanvi@example.net,+918572440570,IT,Analyst,Ahmednagar,Arunachal Pradesh,2025-10-24,1157976,On Leave
+417,Pranit Sundaram,Male,1985-01-31,handajatin@example.org,0528203232,IT,Analyst,Deoghar,Rajasthan,2023-02-12,396622,On Leave
+418,Bhavini Varughese,Male,1993-11-24,manthanradhakrishnan@example.net,9226682198,HR,Analyst,Hosur,Gujarat,2022-06-20,338312,Active
+419,Vihaan Singh,Male,1969-07-19,daniel72@example.com,+918866102399,HR,Executive,Shimoga,Punjab,2024-04-17,314796,Active
+420,Brijesh Bansal,Female,1997-10-20,xbuch@example.com,+916390040323,HR,Executive,Chapra,Himachal Pradesh,2022-05-31,918408,Resigned
+421,Anya Pradhan,Male,1991-07-29,prashadekbal@example.net,6404137153,Admin,Analyst,Phagwara,Andhra Pradesh,2024-05-01,733772,On Leave
+422,Chakradev Dutt,Male,2001-11-01,zehaansrinivasan@example.net,6215793492,Finance,Executive,Sultan Pur Majra,Rajasthan,2024-11-04,896525,Resigned
+423,Megha Boase,Male,1978-02-22,cgrewal@example.org,,HR,Manager,Adoni,Madhya Pradesh,2023-06-22,1138147,Active
+424,Osha Bassi,Male,1967-04-16,zayan67@example.com,+915920102756,Finance,Engineer,Raiganj,Bihar,2025-03-13,356346,Resigned
+425,Samaksh Purohit,Male,1976-06-16,vkapoor@example.com,01796530140,Operations,Engineer,Bhiwani,Gujarat,2025-09-19,416404,Resigned
+426,Balhaar Bhatti,Female,1985-12-31,aggarwalatharv@example.net,+917200333807,IT,Executive,Khandwa,Haryana,2022-04-17,720274,Resigned
+427,Dakshesh Viswanathan,Male,2002-06-13,,+913796374254,Admin,Manager,Chennai,Uttar Pradesh,2026-01-05,957993,Active
+428,Maya Choudhry,Female,1973-12-13,arunimaparsa@example.org,03617020227,Admin,Engineer,Jalgaon,West Bengal,2022-07-09,864320,On Leave
+429,Dipta Keer,Male,1973-07-11,zayyan10@example.org,+910930428027,HR,Engineer,Chinsurah,Andhra Pradesh,2022-02-06,1123615,Resigned
+430,Fariq Baral,Female,1968-02-15,vanya97@example.com,7818893348,Operations,Engineer,Nangloi Jat,Andhra Pradesh,2023-08-01,448346,Active
+431,Raksha Jaggi,Female,1991-10-27,petergill@example.org,,Operations,Executive,Kollam,Punjab,2025-07-11,861310,Resigned
+432,Shivansh Natt,Male,1975-12-12,,05544351592,Admin,Executive,Bally,Uttarakhand,2022-07-18,520463,Active
+433,Yash Kapur,Female,1996-09-21,zashilmadan@example.net,7525400896,HR,Executive,Anantapuram,Tamil Nadu,2024-01-28,1082979,On Leave
+434,Kabir Dada,Female,1970-10-14,chawlapranit@example.org,00356684760,Finance,Manager,Jaunpur,Tamil Nadu,2025-12-08,1191310,On Leave
+435,Ekbal Parmar,Female,2004-08-06,pallasanya@example.com,+916476723593,IT,Engineer,Kolhapur,Mizoram,2023-10-09,320148,Resigned
+436,Om Vora,Female,1972-04-20,kadakiaakshay@example.net,05762953041,Finance,Manager,Visakhapatnam,Andhra Pradesh,2024-11-09,610991,Active
+437,Eiravati Murty,Female,1986-12-26,deepbhavya@example.com,8196575294,Admin,Analyst,Ichalkaranji,Uttar Pradesh,2024-08-26,1042070,On Leave
+438,Siddharth Devi,Female,1971-08-16,vlall@example.org,+915676609850,Operations,Executive,Jhansi,Madhya Pradesh,2023-01-23,820163,Resigned
+439,Vanya Saraf,Male,1989-07-07,dsastry@example.com,+919474712118,Operations,Manager,Mangalore,Tripura,2024-03-21,1150675,On Leave
+440,Ekapad Sangha,Male,2000-08-06,karanradhika@example.net,+918170355123,Admin,Manager,Karawal Nagar,Goa,2025-03-29,387714,On Leave
+441,Samaksh Lal,Female,2003-06-11,sudiksha04@example.com,+917770577505,Operations,Analyst,Jamnagar,Assam,2021-09-17,408305,Active
+442,Niharika Roy,Male,1986-06-10,zaitra41@example.com,,Finance,Analyst,Nanded,Manipur,2024-03-07,747508,Active
+443,Tarak Randhawa,Female,1968-04-07,aashi05@example.net,+914964345744,Finance,Engineer,Thrissur,Tripura,2022-11-10,966313,Resigned
+444,Chandani Raja,Female,1967-08-04,choudhurykavya@example.com,03103885655,HR,Executive,Howrah,Tripura,2023-06-02,330945,Active
+445,Sudiksha Puri,Male,2003-07-02,jbanerjee@example.net,4083406357,Admin,Engineer,Eluru,Jharkhand,2021-11-15,681019,On Leave
+446,Nitesh Vasa,Female,1995-03-31,amol68@example.org,02503673781,IT,Engineer,Bhiwani,Goa,2025-09-01,821625,On Leave
+447,Hritik Narayanan,Male,1969-10-01,chandreshdara@example.org,+913859276407,IT,Manager,Serampore,Meghalaya,2025-09-16,360052,Resigned
+448,Vanya Sawhney,Female,1992-06-29,baradirya@example.net,+915760510533,IT,Manager,Eluru,Jharkhand,2025-07-15,1061957,Resigned
+449,Brijesh Deshmukh,Male,1968-03-25,umangraju@example.net,5579500119,Operations,Engineer,Saharanpur,Arunachal Pradesh,2021-04-13,1097584,Active
+450,Advaith Rege,Female,1986-08-22,wahabhora@example.com,09760043434,HR,Executive,Nizamabad,Odisha,2025-11-04,695139,Resigned
+451,Elijah Lall,Male,2001-09-08,,02936056169,Operations,Analyst,Anand,Meghalaya,2023-01-25,493521,Resigned
+452,Dominic Ghosh,Female,1986-03-12,dhriti53@example.net,6143468974,Finance,Engineer,Tiruppur,West Bengal,2022-07-23,551270,Active
+453,Warinder More,Female,1970-02-13,lalavihaan@example.org,5322671892,IT,Engineer,Jammu,Meghalaya,2024-12-17,538189,On Leave
+454,Harita Bhakta,Male,1967-10-11,yashawinidoctor@example.org,9297095733,HR,Engineer,Pali,Himachal Pradesh,2021-10-28,555877,Active
+455,Isha Venkataraman,Male,1976-01-14,darika77@example.com,+917458361436,HR,Analyst,Bhubaneswar,Gujarat,2025-11-16,445927,On Leave
+456,Aradhana Sangha,Female,1988-12-08,,+915381110640,Operations,Engineer,Raichur,Goa,2023-11-24,601574,Resigned
+457,Eshana Anand,Female,1996-02-13,vermayashica@example.net,0616815661,HR,Engineer,Dewas,Madhya Pradesh,2022-12-17,1071872,Resigned
+458,Siya Rai,Male,2002-03-30,ksachdev@example.org,0310752397,IT,Analyst,Erode,Uttar Pradesh,2025-01-13,401027,On Leave
+459,Arunima Ghosh,Female,1979-05-12,dkapadia@example.com,+911220168139,Admin,Engineer,Korba,Madhya Pradesh,2021-09-20,744601,Resigned
+460,Kashish Sarna,Male,1995-06-26,zchawla@example.net,00860060765,Operations,Manager,Gudivada,Punjab,2024-11-04,599979,On Leave
+461,Adya Sanghvi,Male,1998-03-16,gavindatta@example.com,1630359435,Operations,Engineer,Jhansi,Mizoram,2022-10-30,973316,On Leave
+462,Indrajit Mahajan,Male,1993-10-19,pmodi@example.org,04301058219,IT,Executive,Hindupur,Karnataka,2025-12-29,644431,Resigned
+463,Dev Kara,Female,1985-04-09,kmitra@example.org,4322377509,Operations,Engineer,Tenali,Arunachal Pradesh,2024-03-14,895864,On Leave
+464,Dipta Soni,Female,1966-08-31,hpathak@example.org,+912071543248,Admin,Executive,Sikar,Meghalaya,2022-08-02,800502,Resigned
+465,Garima Yogi,Male,1993-04-22,aradhanaratta@example.com,1035910297,Admin,Executive,Pali,Rajasthan,2023-01-04,628585,On Leave
+466,Warda Pathak,Female,1995-02-08,anthonyvarughese@example.org,2729310680,Finance,Analyst,Imphal,Chhattisgarh,2026-01-06,706908,Active
+467,Lohit Ramakrishnan,Male,1970-02-24,riyalad@example.net,05883025482,Finance,Engineer,Coimbatore,Mizoram,2025-04-09,918326,Active
+468,Yagnesh Keer,Male,1979-09-17,victor99@example.net,01592842754,Finance,Engineer,Varanasi,Manipur,2025-05-22,917048,Active
+469,Radhika Nagi,Female,1967-06-12,charita30@example.net,0834315791,Finance,Manager,Panihati,Gujarat,2024-01-14,869392,Resigned
+470,Jeet Kala,Female,1981-03-07,girishsharma@example.org,+919050502173,IT,Analyst,Vadodara,Himachal Pradesh,2025-01-06,621389,On Leave
+471,Vedant Ganesh,Female,1999-12-08,odikapadmanabhan@example.net,+917759119996,Finance,Manager,Etawah,Bihar,2022-11-23,1191043,Active
+472,Osha Sankaran,Female,1977-12-13,ranamaanas@example.org,00554305734,Operations,Manager,Karawal Nagar,Arunachal Pradesh,2024-09-12,452126,Active
+473,Kala Mandal,Male,1993-10-14,radha84@example.org,,IT,Manager,Ghaziabad,Sikkim,2023-12-12,770474,On Leave
+474,Ekaraj Amble,Female,1990-02-06,balvan26@example.org,1462039664,Operations,Executive,Junagadh,Goa,2025-08-28,527762,Resigned
+475,Jeet Dhar,Male,1968-04-17,sehgaldevansh@example.net,8449827320,Operations,Manager,Panvel,Himachal Pradesh,2022-01-01,412644,On Leave
+476,Pranit Wable,Female,1966-07-01,,9058280826,Operations,Manager,Bhind,Andhra Pradesh,2024-07-20,398301,Active
+477,Gavin Apte,Male,1977-08-14,yutika64@example.org,3070338290,HR,Engineer,Ghaziabad,Jharkhand,2022-11-01,711073,On Leave
+478,Dalaja Chaudhry,Female,1986-09-09,cbhatnagar@example.net,+918602288146,HR,Manager,Gulbarga,Jharkhand,2024-06-16,1104233,On Leave
+479,Karan Mangal,Male,1986-12-29,rsule@example.net,07400542666,Operations,Engineer,Shivpuri,Mizoram,2021-06-26,883084,Active
+480,Wriddhish Sarma,Male,1981-03-03,,06854058656,Admin,Analyst,Ahmedabad,Odisha,2025-04-11,996977,Active
+481,Lakshit Om,Male,1986-04-26,ramanfarhan@example.com,8613511088,IT,Manager,Durg,Karnataka,2021-08-09,986430,On Leave
+482,Farhan Dara,Female,1965-09-13,amairabarman@example.net,0852930496,Finance,Manager,Machilipatnam,West Bengal,2024-08-07,506360,Active
+483,Noah Taneja,Female,1977-03-14,hegdeumang@example.net,+918337982738,Operations,Executive,Jodhpur,Telangana,2022-07-17,475584,Resigned
+484,Gautami Shenoy,Female,1977-11-08,shettyharshil@example.org,,Admin,Executive,Gorakhpur,Assam,2023-12-24,661781,Resigned
+485,Frado Dube,Male,1989-12-08,jackkhosla@example.net,07271171856,IT,Analyst,Khammam,Uttarakhand,2024-01-12,1128941,On Leave
+486,Janaki Trivedi,Female,1987-08-18,kbanerjee@example.org,+911245339509,Finance,Executive,Adoni,Chhattisgarh,2021-09-02,1054093,Resigned
+487,Jhalak Wali,Male,1988-10-24,yshukla@example.com,1760638405,HR,Manager,Tenali,Telangana,2021-03-16,954263,Resigned
+488,Waida Sarin,Female,1985-06-05,,4120375514,Operations,Executive,Malegaon,Andhra Pradesh,2025-06-01,365788,Resigned
+489,Yashica Vaidya,Female,1969-02-20,urishilla14@example.com,04538397189,IT,Manager,Burhanpur,Chhattisgarh,2025-09-27,961437,Active
+490,Girindra Nayar,Female,1973-03-28,maanav02@example.net,0623134727,Admin,Manager,Khandwa,Kerala,2023-08-06,781673,Resigned
+491,Kritika Chad,Male,1983-08-25,vasatikaamble@example.com,2521402558,Operations,Analyst,Bhubaneswar,Tripura,2022-10-12,366196,Active
+492,Aradhana Jhaveri,Female,1979-04-23,,+916669872794,Finance,Manager,Panihati,Jharkhand,2021-11-17,496400,Resigned
+493,Deepa Palan,Male,1971-04-05,kalaeiravati@example.org,3766833662,HR,Manager,Bally,Rajasthan,2024-02-14,804135,On Leave
+494,Chakradev Rai,Female,1990-07-12,,7348689998,Admin,Manager,Silchar,Uttarakhand,2022-03-03,812657,Active
+495,Reyansh Babu,Female,1975-12-01,kiaan45@example.org,0004833835,HR,Analyst,Bellary,Uttar Pradesh,2021-10-01,583891,On Leave
+496,Jairaj Kalita,Male,1972-06-14,kavya98@example.net,+914135056139,HR,Manager,Surat,Manipur,2023-08-28,433840,On Leave
+497,Yadavi Badami,Male,1991-06-16,ygill@example.com,8002479780,HR,Analyst,Shahjahanpur,Gujarat,2021-09-01,658291,On Leave
+498,Qushi Dhawan,Female,1965-05-07,wasonanamika@example.com,+913082153472,Operations,Manager,Asansol,Nagaland,2023-10-02,377346,On Leave
+499,Meera Joshi,Male,1985-05-19,tanvi72@example.org,+912765292480,HR,Manager,Deoghar,Himachal Pradesh,2022-07-09,588239,On Leave
+500,Ikbal Warrior,Female,1982-02-08,gillpanini@example.org,+910980786592,Admin,Executive,Pimpri-Chinchwad,Andhra Pradesh,2024-03-11,687626,Resigned
+501,Christopher Das,Male,1974-12-18,anthonykumer@example.org,9315657683,Finance,Engineer,Suryapet,Gujarat,2024-07-24,957454,Resigned
+502,Lajita Kamdar,Female,1971-11-17,,5032549710,Admin,Manager,Bongaigaon,Kerala,2022-10-13,732499,On Leave
+503,Arunima Dyal,Female,1972-08-12,krishasankaran@example.com,+911478739045,Operations,Analyst,Ramgarh,Telangana,2022-05-17,909672,On Leave
+504,Forum Seth,Female,1976-07-06,shahjonathan@example.org,+916221831097,Admin,Manager,Panvel,Madhya Pradesh,2024-01-08,657074,Active
+505,Gautam Kapur,Male,1990-02-12,chandranadya@example.com,08426756486,Operations,Executive,Erode,Kerala,2021-08-28,1084636,Active
+506,Daksha Mohanty,Male,1992-01-15,ayush42@example.org,5338952905,IT,Engineer,Ballia,Himachal Pradesh,2025-07-25,701236,On Leave
+507,Daniel Kara,Female,1985-06-27,hemal89@example.net,+910640129410,Operations,Analyst,Faridabad,West Bengal,2025-02-11,668857,Resigned
+508,Charles Jhaveri,Female,1978-02-26,pallaavni@example.com,3557092293,Finance,Executive,Meerut,Assam,2021-05-08,482228,Active
+509,Rayaan Parmer,Female,1993-02-24,rishijoshi@example.com,3306586252,Admin,Engineer,Bidhannagar,Tripura,2023-07-02,1092075,Resigned
+510,Neelima Chaudhry,Male,1979-02-27,indali66@example.com,01707152256,IT,Executive,Chapra,Goa,2022-08-11,353312,On Leave
+511,Netra Chahal,Female,1979-10-05,vinayaprasad@example.com,2470629745,IT,Executive,Hapur,Tripura,2024-09-09,582878,Active
+512,Ikbal Ahluwalia,Male,1996-06-30,nairwatika@example.net,+911808463569,Admin,Executive,Rourkela,Telangana,2022-07-15,484046,On Leave
+513,Wakeeta Saraf,Male,1972-11-19,advaybaria@example.org,,Admin,Analyst,Eluru,West Bengal,2023-02-11,1057936,Resigned
+514,Aarna Balay,Male,2003-05-16,xdhillon@example.net,06356381358,Operations,Engineer,Motihari,Goa,2023-09-20,916599,On Leave
+515,Isaac Kata,Male,1992-04-15,zsheth@example.net,02350811560,HR,Manager,Phagwara,Tamil Nadu,2025-06-30,623219,Resigned
+516,Alexander Shere,Female,1981-08-05,ymann@example.com,08380811881,IT,Engineer,Jodhpur,Goa,2023-07-11,742195,On Leave
+517,David Chacko,Female,1972-11-09,madhavsethi@example.org,+913332058030,Finance,Engineer,Rourkela,Uttar Pradesh,2022-01-10,448621,Active
+518,Nimrat Dhillon,Male,1979-03-21,charan15@example.com,00370180173,Finance,Executive,Raipur,Andhra Pradesh,2021-04-29,1160704,Active
+519,Sachi Contractor,Male,1968-02-23,acharyaaahana@example.org,4425018552,IT,Analyst,Mysore,Nagaland,2023-06-07,697533,Resigned
+520,Raksha Chaudhari,Male,1973-01-21,bediekbal@example.net,+912364883418,Finance,Manager,Tadipatri,Himachal Pradesh,2025-06-01,1070410,On Leave
+521,Shravya Talwar,Female,1983-07-25,psampath@example.org,01292827290,Finance,Executive,Vijayanagaram,Madhya Pradesh,2023-11-02,454653,On Leave
+522,Bhanumati Badal,Male,1965-12-09,chadkevin@example.net,+917311413242,Admin,Executive,Ulhasnagar,Nagaland,2022-02-21,784109,On Leave
+523,Meghana Sridhar,Female,1980-05-13,shatheodore@example.net,8793435409,Admin,Engineer,Dehri,Telangana,2022-07-08,1056456,Active
+524,Avni Dhar,Female,1983-07-14,kprashad@example.net,0746696662,Admin,Engineer,Nellore,Gujarat,2021-09-10,733106,Active
+525,Ekantika Kaur,Male,1991-06-21,maneharshil@example.org,00396876413,Operations,Executive,Navi Mumbai,Mizoram,2023-06-27,534547,Active
+526,Bhavya Kulkarni,Male,1994-10-15,wkhare@example.com,+915048175400,Admin,Manager,Hosur,Madhya Pradesh,2024-07-04,758493,On Leave
+527,Faris Natt,Male,1983-01-16,nadkarnichanchal@example.org,1678554738,Admin,Manager,Faridabad,Madhya Pradesh,2024-07-13,880188,On Leave
+528,Vamakshi Bala,Male,1973-03-05,sneha78@example.org,02307801208,Admin,Engineer,Kolkata,Punjab,2021-08-23,350879,On Leave
+529,Vrinda Ram,Male,1989-02-18,mbadal@example.org,+912913330753,HR,Executive,Vellore,Madhya Pradesh,2025-07-09,330653,On Leave
+530,Rudra Rattan,Female,1982-08-13,,04515526113,Operations,Engineer,Agra,Gujarat,2023-05-23,340282,On Leave
+531,Edhitha Guha,Male,1967-06-06,mhari@example.net,+913088401708,Operations,Manager,Bhubaneswar,West Bengal,2024-09-19,482730,Resigned
+532,Meera Palla,Male,1997-12-22,edhitha74@example.net,+918216213669,IT,Engineer,Dibrugarh,Sikkim,2024-10-15,769288,Active
+533,Ekanta Gole,Male,2003-10-11,gautamiprashad@example.com,09286325933,Admin,Executive,Delhi,Meghalaya,2023-07-07,928711,On Leave
+534,Tanveer Oak,Male,1988-03-17,chanakya08@example.org,+916928980833,IT,Executive,Guna,Karnataka,2024-10-01,768230,Resigned
+535,Chatura Ahluwalia,Female,2003-03-25,unigam@example.com,+913706048604,HR,Engineer,Guntur,Rajasthan,2024-06-26,1129881,On Leave
+536,Priya Sundaram,Male,1974-08-18,jagatmurty@example.net,06155313961,Finance,Manager,Suryapet,Chhattisgarh,2025-05-03,302927,On Leave
+537,Osha Sankar,Female,1996-03-14,nkhurana@example.com,3105534652,Finance,Manager,Noida,Gujarat,2022-02-15,709686,Resigned
+538,Naksh Garde,Male,1974-09-27,balvanraj@example.com,,Operations,Engineer,Ulhasnagar,Gujarat,2022-05-05,466296,Active
+539,Jonathan Nazareth,Female,1992-12-29,dsekhon@example.org,,IT,Engineer,Madhyamgram,Jharkhand,2021-06-26,428489,Resigned
+540,Barkha Gera,Female,1976-09-05,rmody@example.com,+917745875117,Admin,Executive,Berhampore,Sikkim,2024-09-04,870666,On Leave
+541,Falguni Mammen,Male,1974-05-07,leela50@example.net,+917875746410,HR,Engineer,Lucknow,Chhattisgarh,2021-04-23,640679,On Leave
+542,Nathan Baria,Female,1998-07-03,usabharwal@example.com,3299065863,IT,Executive,Rajpur Sonarpur,Chhattisgarh,2025-03-16,1054485,Active
+543,Geetika Barad,Female,1977-07-02,goelabdul@example.com,,IT,Analyst,Ghaziabad,Haryana,2021-11-14,591386,Resigned
+544,Abhiram Tandon,Male,1993-10-04,,+912827513496,IT,Manager,Sultan Pur Majra,Sikkim,2021-02-05,472067,On Leave
+545,Madhav Saran,Female,2000-11-23,lipika95@example.com,6799151224,IT,Engineer,Chandigarh,Tripura,2024-11-18,633364,On Leave
+546,Niharika Chaudhry,Female,2000-03-31,jrajan@example.com,04477744735,Operations,Engineer,Nagaon,Nagaland,2025-10-16,860460,Active
+547,Chavvi Contractor,Female,2002-05-26,narasimhanlekha@example.net,01117546153,HR,Manager,Amritsar,Assam,2024-11-28,421417,On Leave
+548,Garima Mittal,Male,1973-04-03,,07145317260,IT,Manager,Nagpur,Arunachal Pradesh,2021-11-12,648702,Resigned
+549,Hemang Johal,Male,1971-10-01,,1492722933,Admin,Manager,Buxar,Manipur,2021-10-29,672931,Active
+550,Kabir Srinivas,Male,1988-07-13,,2888272866,Operations,Executive,Chapra,Haryana,2021-01-21,800552,Resigned
+551,Bahadurjit Bhargava,Male,1976-10-18,jsaxena@example.net,9387312814,HR,Manager,Indore,Nagaland,2025-12-26,1115209,Active
+552,Diya Mander,Female,2000-06-21,narainanirudh@example.org,07299639032,Admin,Analyst,Meerut,Kerala,2024-05-17,680633,Resigned
+553,Orinder Sridhar,Female,1975-12-01,patrickshetty@example.net,,HR,Executive,Karnal,Odisha,2025-02-03,746251,Resigned
+554,Aadhya Bumb,Male,1984-04-17,,9973744286,Operations,Engineer,Bareilly,Gujarat,2025-04-21,521986,On Leave
+555,Azaan Salvi,Male,1985-07-18,krishnanda@example.net,+913595914560,IT,Engineer,Karaikudi,Odisha,2023-01-01,707856,Resigned
+556,Maya Atwal,Female,1979-10-27,yatan18@example.org,,Finance,Executive,Aligarh,Chhattisgarh,2025-04-08,781476,Resigned
+557,Ekanta Choudhary,Female,1996-02-27,akumar@example.com,00452658715,HR,Engineer,Faridabad,Nagaland,2021-02-28,810132,Resigned
+558,Wakeeta Dixit,Male,1982-01-02,ozajackson@example.org,2354206444,Finance,Manager,Vijayawada,Mizoram,2021-03-24,932157,Active
+559,Henry Menon,Male,1969-02-03,,03030773972,Finance,Manager,Kadapa,Arunachal Pradesh,2023-12-28,477735,On Leave
+560,Jairaj Kapoor,Female,1983-12-20,fiyazben@example.net,02120279200,Finance,Manager,Tiruchirappalli,Tripura,2023-08-30,1036836,Resigned
+561,Chaaya Mishra,Female,1999-07-22,faraj30@example.org,01945798423,Finance,Manager,Thiruvananthapuram,Nagaland,2025-05-24,419207,Resigned
+562,Zashil Purohit,Female,2001-10-16,baghyawatiparsa@example.org,3417669585,Finance,Executive,Shimoga,Maharashtra,2023-01-23,425000,Resigned
+563,Pratyush Gara,Male,1976-08-28,fitanpau@example.org,+916115376628,IT,Analyst,Gandhinagar,Odisha,2024-03-16,444955,Active
+564,Nakul Sani,Female,1972-12-24,sampathlajita@example.com,+918628217132,HR,Engineer,Darbhanga,Chhattisgarh,2025-09-06,707665,On Leave
+565,Harita Natt,Female,1983-01-27,jasonpai@example.net,+912042232808,Admin,Analyst,Varanasi,Telangana,2025-09-05,749440,Active
+566,Gautami Jain,Female,2000-10-28,pratyush79@example.com,,HR,Analyst,Muzaffarpur,Arunachal Pradesh,2025-03-25,580897,On Leave
+567,Chatresh Sule,Female,2001-12-31,xprashad@example.net,6885044873,HR,Manager,Panihati,Uttar Pradesh,2025-12-17,1047463,On Leave
+568,Praneel Singh,Male,2004-07-27,chaman95@example.net,09874889125,HR,Manager,Bathinda,Chhattisgarh,2021-02-19,880860,Active
+569,Zansi Misra,Male,2002-07-04,gaurangcherian@example.net,8997262343,Finance,Engineer,Madhyamgram,Tripura,2025-01-13,1166395,Resigned
+570,Indali Luthra,Male,1975-09-21,narasimhanrishi@example.com,,HR,Analyst,Hapur,Mizoram,2022-01-24,672140,Resigned
+571,Ayushman Purohit,Male,1982-03-24,tripti48@example.org,+917505736078,HR,Analyst,Korba,Rajasthan,2022-12-12,637857,Resigned
+572,Harish Dua,Female,1980-07-29,anmol67@example.com,2782064870,HR,Manager,Singrauli,Jharkhand,2021-10-05,406819,On Leave
+573,Qadim Devan,Male,1967-06-28,nicholasbahl@example.org,05240851043,IT,Engineer,Anantapur,Nagaland,2024-03-29,696534,Active
+574,Victor Grewal,Female,1985-01-04,dayamai01@example.com,00717732545,Operations,Manager,Kumbakonam,Uttarakhand,2021-08-31,962902,On Leave
+575,Hamsini Gola,Female,1972-04-09,,02898030985,Operations,Executive,Raichur,Punjab,2025-09-29,378596,Active
+576,Umang Kata,Male,1985-07-16,ubawa@example.org,1383915234,Admin,Manager,Saharsa,West Bengal,2026-01-07,385277,Active
+577,Aarav Dayal,Female,1987-12-22,msachdeva@example.com,1238592775,Operations,Manager,Navi Mumbai,Manipur,2024-10-05,559846,On Leave
+578,Yoshita Baria,Male,1965-08-02,keya13@example.com,+910190870837,HR,Engineer,Gopalpur,Madhya Pradesh,2021-11-17,1015720,Active
+579,Chandran Dalal,Male,2003-02-17,wridesh83@example.com,02506131526,IT,Engineer,Thane,Himachal Pradesh,2021-09-16,444951,On Leave
+580,Hardik Merchant,Male,1977-04-04,balichatura@example.org,01968873910,Operations,Engineer,Visakhapatnam,Uttar Pradesh,2023-04-14,1140881,Resigned
+581,Victor Seth,Female,1988-10-09,chandani49@example.com,8948155619,HR,Analyst,Mangalore,Arunachal Pradesh,2021-09-19,718857,On Leave
+582,Manya Sem,Female,1988-01-22,harshilkari@example.org,0536165048,Admin,Analyst,Jammu,Chhattisgarh,2021-05-18,684347,Active
+583,Zayan Salvi,Male,1975-12-05,amarabahl@example.net,05172964457,Operations,Analyst,Mysore,Kerala,2025-01-20,865044,Resigned
+584,Baghyawati Deo,Male,1985-06-19,sahniharish@example.net,1978973484,Operations,Analyst,Davanagere,Himachal Pradesh,2025-01-28,972021,On Leave
+585,Krishna Goswami,Male,2002-05-25,harinimahajan@example.org,+918228602205,Admin,Executive,Pondicherry,Manipur,2023-12-05,740880,Resigned
+586,Frederick Kothari,Female,1981-07-20,wbora@example.net,4936048616,Finance,Analyst,Hazaribagh,Punjab,2023-07-13,1173978,On Leave
+587,Ati Bhatia,Female,1984-02-14,krisharama@example.com,+915310153392,HR,Executive,Nagercoil,Jharkhand,2025-06-21,435014,On Leave
+588,Janani Sampath,Male,1965-08-20,hbhardwaj@example.net,6770109852,Operations,Analyst,Belgaum,Uttar Pradesh,2025-01-24,789406,On Leave
+589,Harita Johal,Male,1973-04-28,victorpathak@example.org,+917685895484,IT,Manager,Cuttack,Tripura,2022-09-12,792818,Resigned
+590,Divya Nagarajan,Female,1986-05-28,faris83@example.org,+910664047657,IT,Engineer,Shimla,Nagaland,2021-12-12,332278,Active
+591,Wahab Borah,Male,2000-03-16,,+916644749355,Operations,Executive,Aurangabad,Tamil Nadu,2022-07-23,944411,On Leave
+592,Eesha Bajwa,Female,1987-06-29,darika61@example.org,5779681809,Finance,Analyst,Thrissur,Mizoram,2022-09-23,1044450,Active
+593,Devansh Bhakta,Female,1978-11-26,omkaar29@example.com,+912403084119,Operations,Manager,Korba,Manipur,2022-03-17,901916,Active
+594,Madhavi Chaudry,Male,1973-05-23,bakshianirudh@example.net,01497915947,IT,Engineer,Bhilai,Nagaland,2021-08-28,528624,Active
+595,Vedant Sunder,Female,1997-05-21,lekhasinha@example.com,+918548349298,HR,Manager,Sagar,Punjab,2021-02-19,975477,Active
+596,Viraj Vig,Male,1973-05-01,jsankaran@example.org,03749298976,Finance,Engineer,Pudukkottai,Rajasthan,2021-02-05,609741,On Leave
+597,Ishwar Toor,Female,1971-05-28,upalan@example.net,+916982398148,HR,Engineer,Madanapalle,Andhra Pradesh,2025-12-12,433511,Active
+598,Idika Puri,Female,2001-04-16,ichand@example.net,01582482892,HR,Manager,Delhi,Telangana,2022-03-02,1191438,Active
+599,Qushi Koshy,Female,1965-05-27,janaki25@example.org,+912767366466,Operations,Analyst,Bharatpur,Uttar Pradesh,2023-03-02,1058172,On Leave
+600,David Subramanian,Male,1983-07-17,tsandhu@example.org,+912327879216,Operations,Executive,Jorhat,Bihar,2024-08-25,1008633,Resigned
+601,Arjun Kumar,Female,1989-09-14,neelimaarya@example.org,8790565521,Operations,Executive,Jodhpur,Arunachal Pradesh,2021-05-15,566935,On Leave
+602,Bina Edwin,Male,1979-05-08,karanramachandran@example.com,08619652213,HR,Engineer,Sirsa,Mizoram,2024-04-23,416897,Active
+603,Thomas Uppal,Female,1973-12-19,patrickluthra@example.com,+913722529497,Admin,Executive,Jamnagar,Arunachal Pradesh,2023-05-12,343633,On Leave
+604,Chaitaly Kari,Female,1971-06-29,mason14@example.net,,Admin,Analyst,Khandwa,Chhattisgarh,2025-07-17,1043179,Active
+605,Jackson Sama,Male,1997-12-16,fdash@example.org,1967438940,IT,Manager,Guntur,Jharkhand,2024-12-18,808163,Active
+606,Bhavna Sawhney,Male,1976-02-28,tmital@example.net,4323160792,Admin,Manager,Farrukhabad,Uttar Pradesh,2023-02-23,351167,Resigned
+607,Manan Dyal,Male,2002-05-14,xseth@example.org,7446987652,Operations,Manager,Indore,Mizoram,2023-06-29,798357,Resigned
+608,Ekiya Khanna,Male,1990-09-18,karchameli@example.net,9252672173,HR,Engineer,Kochi,Assam,2021-10-18,643408,Active
+609,Vansha Murthy,Female,2002-05-30,xsanghvi@example.org,+916718758056,Finance,Engineer,Nagercoil,Rajasthan,2024-03-24,955829,Resigned
+610,Ishwar Mall,Female,2000-05-13,nidhidesai@example.net,4589291357,Operations,Engineer,Nashik,Punjab,2021-07-20,1188630,Active
+611,Oscar Krishna,Female,1999-02-15,uvirk@example.net,+916821720172,Operations,Engineer,Tinsukia,Goa,2021-10-28,765459,On Leave
+612,Dayamai Krishnan,Male,1995-01-05,ntata@example.org,,Admin,Engineer,Aizawl,Jharkhand,2025-06-17,722191,Resigned
+613,Harinakshi Swaminathan,Female,1980-07-05,qkala@example.net,03239272482,IT,Analyst,Hazaribagh,Odisha,2022-07-11,1115373,Active
+614,Yasti Salvi,Female,1966-09-17,,04498410981,IT,Executive,Aurangabad,Karnataka,2025-04-06,1107580,On Leave
+615,Ishanvi Din,Female,1995-10-14,devlall@example.org,0212402990,Admin,Manager,Gulbarga,Uttar Pradesh,2022-11-06,608322,Resigned
+616,Amara Purohit,Male,1975-01-05,wazir69@example.com,9074312598,Operations,Executive,Hindupur,Bihar,2024-07-03,837324,Active
+617,Janani Bir,Male,1973-09-11,ekavirprasad@example.org,+914185622717,Admin,Analyst,Gaya,Madhya Pradesh,2024-04-03,341071,On Leave
+618,Jairaj Desai,Male,1988-04-17,issacgirindra@example.net,02938867098,HR,Manager,Sikar,Madhya Pradesh,2025-05-14,851046,On Leave
+619,Mitesh Kalla,Female,1983-01-25,amruta05@example.net,6808971332,HR,Engineer,South Dumdum,Andhra Pradesh,2024-09-21,1187223,Active
+620,Arunima Agarwal,Female,1971-12-22,purohitqarin@example.net,00672442753,IT,Manager,Kamarhati,Karnataka,2022-11-22,623527,Resigned
+621,Champak Loke,Female,1988-08-06,nhegde@example.com,+915707864385,IT,Analyst,Mango,Odisha,2023-09-06,884353,Resigned
+622,Pahal Kalita,Female,1978-01-01,buchronith@example.org,06330758904,Finance,Engineer,Bhiwandi,Haryana,2025-05-31,1116899,Active
+623,Nathaniel Saha,Female,1994-11-11,nattamol@example.net,4065894926,Operations,Executive,Serampore,Karnataka,2022-03-19,603347,Active
+624,Varsha Solanki,Female,1991-09-20,ygokhale@example.com,06592519201,Admin,Executive,Agartala,Sikkim,2023-06-17,733010,On Leave
+625,Akshay Anne,Female,1992-01-13,sarmaekansh@example.com,+914891221811,Finance,Manager,Nagaon,Telangana,2021-02-09,730424,Resigned
+626,Guneet Pal,Female,1974-08-27,toorayush@example.com,09292714255,IT,Executive,Guna,Bihar,2021-01-22,388070,On Leave
+627,Nitesh Lal,Female,1968-11-11,zachariahanya@example.com,05542499663,Finance,Analyst,Amritsar,Rajasthan,2024-10-19,386983,Active
+628,Unnati Mukherjee,Male,1970-03-31,omahal@example.net,03773706440,HR,Executive,Rajpur Sonarpur,Maharashtra,2023-05-20,682299,Resigned
+629,Sai Palla,Female,1987-06-13,hmaster@example.net,+914240122799,HR,Executive,Barasat,Himachal Pradesh,2024-06-08,716731,Active
+630,Jagdish Chand,Female,1972-12-29,janakibora@example.org,+918999599903,Admin,Engineer,Karnal,West Bengal,2022-03-31,914313,Resigned
+631,Jeremiah Toor,Male,1973-01-01,loganhora@example.com,06581590334,HR,Manager,Mysore,Uttar Pradesh,2025-02-10,1089441,Resigned
+632,Arin Divan,Male,1992-07-25,amaira90@example.org,+914095072326,Finance,Engineer,Sirsa,Uttarakhand,2024-11-02,878523,Resigned
+633,Inaya D’Alia,Male,1968-01-23,dixitjanani@example.com,+915551042874,Operations,Executive,Jorhat,Tripura,2021-10-01,733156,Resigned
+634,Hemal Deol,Male,1980-09-15,tsandhu@example.net,8134786303,Operations,Manager,Vijayanagaram,Karnataka,2021-06-10,1130089,Active
+635,Arin Agate,Female,1982-06-08,xchoudhary@example.org,01879923018,Finance,Executive,Bharatpur,Bihar,2025-02-21,753393,Active
+636,Hemal Badami,Female,1995-05-01,goyalaarav@example.org,8089432906,HR,Manager,Sasaram,Jharkhand,2023-10-26,648904,Resigned
+637,Anmol Ramakrishnan,Female,2002-05-28,qcherian@example.net,+919986590357,Finance,Analyst,Warangal,Uttarakhand,2024-04-14,499509,Active
+638,Madhavi Chatterjee,Female,1986-12-06,,+917208871268,IT,Manager,Pudukkottai,Jharkhand,2023-01-30,412204,On Leave
+639,Onkar Ramesh,Female,1985-08-06,warinderoak@example.org,04166333735,Finance,Analyst,Madanapalle,Manipur,2025-03-12,1194682,On Leave
+640,Faris Dave,Female,2003-02-15,akshay23@example.net,+911307584303,Operations,Executive,Mau,Rajasthan,2025-04-14,436775,On Leave
+641,Henry Viswanathan,Male,1968-10-11,reddyoni@example.net,+913618876131,HR,Analyst,Bareilly,Sikkim,2025-12-27,421152,On Leave
+642,Champak Deol,Male,1980-02-01,handabhavika@example.net,+914996942650,IT,Engineer,Tenali,Bihar,2021-04-28,933641,Resigned
+643,Quincy Ghosh,Female,1984-03-08,kabir85@example.org,,Finance,Executive,Sambhal,Telangana,2022-05-07,1038493,On Leave
+644,Gayathri Ganesan,Male,1965-02-13,pbuch@example.org,+910121328694,HR,Manager,Firozabad,Arunachal Pradesh,2022-08-15,458872,On Leave
+645,Ekaja Thaman,Male,1975-10-18,jnazareth@example.net,0815947473,IT,Engineer,Udupi,Punjab,2022-03-13,937209,On Leave
+646,Vasudha Maharaj,Male,1984-05-07,varmajack@example.org,04230496657,IT,Analyst,Cuttack,Tamil Nadu,2024-05-09,1169237,Active
+647,Shivani Bhardwaj,Female,1984-06-08,aashi09@example.org,07383428500,HR,Engineer,Jamshedpur,Chhattisgarh,2022-04-05,923997,On Leave
+648,Yashica Mammen,Male,1985-08-11,vermaaditya@example.net,9369156823,HR,Executive,Navi Mumbai,Punjab,2024-11-09,871243,On Leave
+649,Faras Varughese,Male,1966-04-04,hritikbansal@example.net,+912774979469,Admin,Executive,Pune,Odisha,2024-06-29,531499,On Leave
+650,Vyanjana Kunda,Female,1980-06-22,inaya20@example.org,05476353621,HR,Engineer,Buxar,Bihar,2024-10-16,972014,On Leave
+651,Kabir Bahri,Female,1987-06-24,abhirammishra@example.org,+918902954905,IT,Engineer,Naihati,Kerala,2021-09-04,436222,Resigned
+652,Anvi Thakur,Female,2003-07-20,ekanibassi@example.org,+914817753963,Admin,Analyst,Adoni,Tamil Nadu,2022-07-11,1018752,On Leave
+653,Suhani Jhaveri,Male,1967-12-29,janakikohli@example.org,,IT,Manager,Dehri,Uttarakhand,2021-01-24,392076,On Leave
+654,Ethan Mallick,Male,1977-03-18,samrarehaan@example.com,,IT,Executive,Bikaner,Andhra Pradesh,2023-03-15,893552,Resigned
+655,Upadhriti Kalla,Male,1994-09-27,glala@example.org,+915102913145,Finance,Manager,Vijayawada,West Bengal,2023-09-20,610566,Resigned
+656,Ranveer Hegde,Female,1989-03-19,rajagopalanbarkha@example.com,02096770831,Admin,Engineer,Malda,Chhattisgarh,2022-08-07,809936,Active
+657,Upkaar Dalal,Male,2004-07-14,,06628730603,Finance,Engineer,Mira-Bhayandar,Manipur,2025-06-12,337181,Active
+658,Bishakha Sehgal,Female,2002-07-23,zarnaiyer@example.com,+912881086402,Operations,Analyst,Loni,Tripura,2023-06-13,1031920,On Leave
+659,Faraj Parikh,Female,1969-03-04,panini17@example.net,07561059243,IT,Executive,Jamnagar,Andhra Pradesh,2025-06-07,657901,Active
+660,Atharv Johal,Male,1994-02-10,watikachandra@example.net,+914637166647,IT,Engineer,Nadiad,Odisha,2025-08-17,365051,Active
+661,Hemangini Basu,Female,1998-02-24,kalakade@example.org,06916632016,HR,Analyst,Serampore,Madhya Pradesh,2022-06-18,578955,Active
+662,Luke Varty,Male,1974-07-23,maxrajagopalan@example.net,07795407666,Admin,Manager,Madurai,Meghalaya,2023-07-15,1192019,On Leave
+663,Sneha Chopra,Female,1983-12-25,ayaansrinivas@example.org,3708757478,Finance,Engineer,Tirunelveli,West Bengal,2023-09-22,847431,Active
+664,Nandini Mitra,Female,1967-10-14,mandalvidhi@example.net,03605698288,Admin,Engineer,Bhavnagar,Kerala,2021-09-24,1024911,Resigned
+665,Pallavi Shan,Female,1995-10-31,,9003315589,Finance,Analyst,Sagar,Telangana,2021-09-07,650822,Active
+666,Michael Vyas,Female,1968-08-17,sidhuyauvani@example.com,09323277056,IT,Executive,Hubli–Dharwad,Manipur,2024-07-11,1092098,On Leave
+667,Chanakya Hari,Male,2003-09-27,mitalibanik@example.com,+912967460706,Operations,Analyst,Gangtok,Assam,2025-10-19,1109934,On Leave
+668,Dhriti Dube,Female,1971-07-24,bhavika43@example.org,+916418552101,Finance,Engineer,Kottayam,Madhya Pradesh,2022-09-20,1171894,Active
+669,Logan Bajaj,Male,1977-01-19,norileela@example.com,05698492796,Admin,Analyst,Sagar,Kerala,2023-01-14,554263,Resigned
+670,Krisha Kurian,Male,1971-03-11,zinalthaman@example.org,08475150035,Admin,Executive,Ahmedabad,Rajasthan,2022-02-22,608230,On Leave
+671,Champak Mistry,Male,1971-09-17,leena59@example.com,08756393893,HR,Executive,Pune,Madhya Pradesh,2021-10-06,319598,Active
+672,Shaurya Ahluwalia,Female,1982-03-13,tanvikrishna@example.org,+913942184683,Operations,Analyst,Muzaffarpur,Gujarat,2021-11-05,1174078,Resigned
+673,Upkaar Dua,Female,1968-09-04,rehaanchokshi@example.org,01479877897,Finance,Analyst,Tiruvottiyur,Sikkim,2023-09-10,738007,On Leave
+674,Henry Devan,Male,1973-09-07,yoshita36@example.net,02996270166,Admin,Engineer,Anantapuram,Arunachal Pradesh,2022-11-25,392261,On Leave
+675,Balendra Ghosh,Female,2002-10-27,pnarang@example.com,3575932928,HR,Analyst,Junagadh,Karnataka,2021-07-20,455874,Active
+676,Vaishnavi Ganesh,Female,1991-07-17,hemani60@example.com,07953378412,HR,Engineer,Chandrapur,Assam,2021-11-27,380026,Resigned
+677,Edhitha Bail,Female,1970-10-26,,+916315771968,Operations,Engineer,Mysore,Gujarat,2025-08-27,521076,Resigned
+678,Peter Parmar,Male,1975-10-20,shankerfalan@example.org,3340788355,Admin,Analyst,Gandhinagar,Arunachal Pradesh,2022-12-30,374955,Active
+679,Amruta Butala,Male,1985-03-11,,8392107481,Operations,Manager,Meerut,Haryana,2026-01-06,1028122,Active
+680,Fariq Choudhary,Female,1969-10-12,yachanachoudhry@example.com,04982141801,Operations,Executive,Meerut,West Bengal,2025-01-12,696620,Resigned
+681,Vidhi Bath,Female,1968-08-16,avichawla@example.net,6214670702,Admin,Analyst,Anantapuram,Tripura,2022-04-04,696683,Active
+682,Manya Tailor,Female,1967-02-01,triptighose@example.com,+918175258553,Operations,Analyst,Rourkela,Karnataka,2025-08-16,707750,Active
+683,Max Lad,Male,1965-04-27,zdash@example.com,03910395257,Finance,Manager,Purnia,Chhattisgarh,2023-09-22,894317,On Leave
+684,Mahika Kakar,Male,1971-08-31,pantoeshi@example.org,08950501239,Operations,Manager,Warangal,Tamil Nadu,2024-08-08,1064232,On Leave
+685,Panini Patla,Female,2000-04-05,praneel40@example.com,05000561270,Operations,Executive,Mahbubnagar,Bihar,2024-01-19,347184,Resigned
+686,Mason Ganesh,Male,1969-01-22,dayitatandon@example.com,+917905555016,Operations,Manager,Panchkula,Uttar Pradesh,2025-01-02,897426,Active
+687,Sai Chopra,Female,1968-02-20,subramaniamzayan@example.net,+918816885183,Finance,Analyst,Durg,West Bengal,2024-01-03,788545,Active
+688,Akshay Batra,Female,1982-07-18,narulayashodhara@example.org,00915597442,IT,Analyst,Tirupati,Goa,2021-01-29,1064472,Resigned
+689,Om Doshi,Female,1983-12-23,kchandra@example.com,02200907253,Finance,Analyst,Bhopal,Nagaland,2025-08-31,610470,On Leave
+690,Vedant Sur,Female,2004-08-16,chaudrygavin@example.com,07363023240,Operations,Analyst,Sirsa,Jharkhand,2023-07-27,1091401,Resigned
+691,Maanav Tank,Male,1987-04-07,apall@example.org,+918162654922,Operations,Engineer,Bhusawal,Arunachal Pradesh,2022-08-23,1088907,On Leave
+692,Jagrati Choudhury,Female,1991-08-25,lmander@example.com,+916476336932,HR,Executive,Khora ,Kerala,2024-08-15,663171,On Leave
+693,Rayaan Mohan,Male,2003-05-04,zarnavig@example.com,+913026299779,Finance,Engineer,Bidhannagar,Goa,2022-12-07,633767,On Leave
+694,Ranveer Dalal,Male,1984-09-07,xkeer@example.org,05432753727,HR,Manager,Bhiwani,West Bengal,2021-08-26,1053995,Resigned
+695,Caleb Date,Male,1998-11-29,modichavvi@example.com,06467724956,Operations,Manager,Barasat,Chhattisgarh,2023-08-17,470760,Active
+696,Omkaar Banerjee,Female,1990-12-23,lalayasti@example.org,06098727870,HR,Engineer,Karawal Nagar,Bihar,2021-10-08,425133,On Leave
+697,Frado Sarma,Male,1990-04-25,oshanaik@example.org,6581803618,Operations,Engineer,Gaya,Uttarakhand,2022-11-07,801469,Resigned
+698,Hemang Rama,Male,1979-12-02,rachitawali@example.com,5350780478,Admin,Manager,Ratlam,Tripura,2025-10-27,691360,Resigned
+699,Deepa Bahri,Male,1988-05-08,xiti57@example.org,03459672379,Operations,Analyst,Phusro,Karnataka,2025-04-09,943450,Active
+700,Darpan Dora,Female,1996-01-20,,06430629237,HR,Engineer,Guntur,Nagaland,2022-06-30,914266,On Leave
+701,Manbir Bahl,Female,2004-09-27,srinivasmadhav@example.org,03724632217,Finance,Executive,Phagwara,Sikkim,2025-03-05,578438,Active
+702,Max Sawhney,Male,2003-04-21,devigaurika@example.net,+911966908549,Finance,Manager,Suryapet,Arunachal Pradesh,2022-07-22,1049761,Resigned
+703,Lohit Seth,Female,1965-12-25,saanvipau@example.org,+915039517864,Operations,Engineer,Bhind,Chhattisgarh,2024-02-02,355575,Resigned
+704,Daniel Garde,Female,1991-12-12,orao@example.org,06280791640,Admin,Executive,Gurgaon,Jharkhand,2021-07-04,819216,On Leave
+705,Kavya Loyal,Female,1966-12-05,zinal20@example.org,5016430371,Operations,Analyst,Bathinda,Odisha,2025-04-30,318877,On Leave
+706,Daniel Muni,Male,1981-10-20,quincy49@example.net,5330505896,HR,Executive,Yamunanagar,Himachal Pradesh,2021-09-27,331514,Resigned
+707,Lipika Kari,Female,1994-04-10,kalitazaitra@example.net,+912308080157,IT,Engineer,Bellary,Meghalaya,2023-11-06,591633,Active
+708,Om Hayre,Female,1988-07-15,fiyaz27@example.org,1395343082,HR,Manager,Farrukhabad,Tripura,2024-07-25,569407,Active
+709,Peter Basu,Male,1988-04-07,vincentsodhi@example.net,2808976960,HR,Executive,Chandigarh,Odisha,2021-12-07,666959,On Leave
+710,Zilmil Rana,Female,1985-06-24,ntank@example.com,06030775439,IT,Engineer,Bhubaneswar,Goa,2024-07-17,336511,Resigned
+711,Matthew Vyas,Male,1979-09-19,mvarty@example.com,,HR,Engineer,Bellary,Chhattisgarh,2025-07-21,831496,Active
+712,Yash Kamdar,Female,1977-05-26,jlad@example.net,04853361996,Admin,Executive,Meerut,Chhattisgarh,2023-02-10,600893,Active
+713,Sarthak Mahajan,Female,2001-04-07,chaman73@example.com,+918916864729,Operations,Engineer,Proddatur,Madhya Pradesh,2024-11-21,364078,Active
+714,Yashvi Sheth,Male,1985-04-24,jatinrege@example.org,4187674671,Finance,Analyst,Bhusawal,West Bengal,2023-08-14,1198965,Active
+715,Harinakshi Majumdar,Male,1994-03-03,,+912698907468,Operations,Engineer,Sagar,West Bengal,2024-07-04,955021,On Leave
+716,Bina Bakshi,Male,2001-08-23,bhanumatibarad@example.net,+914563506598,Admin,Engineer,Satara,Punjab,2023-02-26,873089,Resigned
+717,Ekta Vala,Male,1974-01-28,bariaindali@example.com,,IT,Analyst,Ajmer,Meghalaya,2021-07-01,936019,Resigned
+718,Vihaan Modi,Female,1972-11-12,farajchowdhury@example.org,8021614441,Finance,Executive,Kozhikode,Manipur,2025-10-03,395893,Resigned
+719,Jeremiah Pillai,Female,1974-10-26,yray@example.com,02957224368,IT,Manager,Katihar,Tamil Nadu,2023-06-17,634541,Active
+720,Ishwar Bajaj,Female,1981-08-04,rachitkohli@example.net,09729813935,Operations,Analyst,Khora ,Madhya Pradesh,2024-06-27,599661,On Leave
+721,Vasatika Deshpande,Male,1984-06-13,lbhatti@example.com,8284983699,Operations,Analyst,Mangalore,Mizoram,2025-10-26,796547,On Leave
+722,Wriddhish Kata,Female,1997-09-14,lavanyaoak@example.com,1970492458,Admin,Executive,Orai,Gujarat,2021-01-24,1047021,Active
+723,Gopal Shenoy,Male,2001-06-22,schawla@example.com,+916854798223,Admin,Engineer,Asansol,Punjab,2025-12-16,724642,Active
+724,Yatin Bhatti,Male,1974-06-18,,+916836969698,HR,Analyst,Bhagalpur,Madhya Pradesh,2024-09-02,1104256,Active
+725,Madhav Kannan,Female,2001-10-18,mnagar@example.com,+919013669030,IT,Engineer,Karaikudi,Meghalaya,2022-01-10,1153555,Active
+726,Guneet Iyer,Female,1986-09-28,yashodhara54@example.com,05922705539,Operations,Engineer,Darbhanga,Bihar,2024-05-15,979005,On Leave
+727,Dipta Bal,Male,1996-10-05,liamgokhale@example.net,02252877510,Operations,Manager,Dewas,Madhya Pradesh,2022-10-06,1102172,On Leave
+728,Yagnesh Chakrabarti,Male,1999-10-25,dtara@example.com,06106660034,Admin,Executive,Fatehpur,Punjab,2023-10-11,511859,Active
+729,Theodore Dhingra,Female,2000-08-08,obir@example.com,+917866877760,Operations,Analyst,Tenali,Assam,2021-04-15,1131494,Active
+730,Onveer Varkey,Female,1972-09-02,vasatripti@example.org,+914887907485,Finance,Manager,Bulandshahr,Telangana,2021-03-15,520371,Resigned
+731,Nitara Rajan,Female,2000-12-29,pallaadweta@example.com,1879436416,Admin,Engineer,Jabalpur,Goa,2024-02-26,730155,On Leave
+732,Nirja Srinivasan,Female,2001-01-16,lila41@example.com,0863643057,IT,Executive,Bihar Sharif,West Bengal,2023-10-16,1190742,On Leave
+733,Onkar Mital,Female,2003-07-08,bgarde@example.com,8351559351,IT,Manager,Chandrapur,Tripura,2025-08-01,933351,On Leave
+734,Mekhala Tara,Female,1965-11-26,amaira41@example.com,05548936713,Finance,Manager,Buxar,Telangana,2024-07-05,639968,Resigned
+735,Kevin Hayer,Female,1999-03-30,,1772097479,Admin,Engineer,Kolkata,Himachal Pradesh,2022-03-31,672046,Active
+736,Ucchal Kohli,Female,1969-08-14,nakul06@example.org,+915646117088,HR,Engineer,Hajipur,Tripura,2024-02-06,1096578,On Leave
+737,Yutika Rau,Male,1973-07-18,hemangini80@example.net,+913990646686,Admin,Executive,Jamalpur,Rajasthan,2025-11-11,318985,Resigned
+738,Nisha Pathak,Male,1972-12-26,bpai@example.org,+912425069654,Admin,Executive,Srinagar,Gujarat,2024-05-31,790232,Resigned
+739,Jhalak Guha,Male,1973-12-09,bathekbal@example.com,06993100614,Operations,Manager,Bharatpur,Goa,2022-04-14,1022980,Active
+740,Falak Nadkarni,Female,1976-03-01,charitavarma@example.com,+913187575501,IT,Executive,Alappuzha,Chhattisgarh,2021-12-28,469429,Resigned
+741,Balveer Walla,Male,1992-05-01,aishani64@example.com,0017445438,Operations,Analyst,Serampore,Punjab,2025-07-09,756119,On Leave
+742,Lakshit Bir,Female,1970-09-06,bhardwajpranit@example.com,6786921683,Finance,Executive,Madurai,Madhya Pradesh,2021-04-01,1108526,Resigned
+743,Yashasvi Kalita,Female,1982-07-20,,2329904749,HR,Executive,Bardhaman,Arunachal Pradesh,2022-06-23,1097515,Resigned
+744,Aarush Lanka,Female,1972-07-11,tarakmerchant@example.com,+915938496135,Operations,Engineer,Jamalpur,Sikkim,2023-05-04,911808,Active
+745,Nakul Mahajan,Male,1981-02-06,hemal61@example.com,9929541365,HR,Executive,Sangli-Miraj & Kupwad,Bihar,2021-10-23,317676,Resigned
+746,Nathan Mall,Male,1987-10-23,vaishnavi26@example.net,0607114894,HR,Engineer,Akola,Gujarat,2022-05-20,531085,Active
+747,Vrishti Hans,Male,1973-06-03,vasanasingh@example.com,+916109456431,Operations,Engineer,Karimnagar,Odisha,2022-07-15,868663,Active
+748,Anirudh Patil,Male,1973-08-19,banikrohan@example.net,+914110965258,Finance,Manager,Hospet,Kerala,2024-08-17,965097,Active
+749,Isha Jain,Male,1995-09-14,tkohli@example.net,+916227152034,Finance,Executive,Saharsa,Uttarakhand,2025-08-04,325443,On Leave
+750,Girindra Handa,Male,1982-01-29,ikrishnan@example.org,03010786251,IT,Analyst,Haldia,Tripura,2023-02-16,694990,Active
+751,Gauri Kashyap,Male,2001-01-12,yuvraj98@example.net,+912385740700,Finance,Executive,Bokaro,Uttarakhand,2023-12-26,465556,On Leave
+752,Dalaja Jaggi,Male,1982-11-24,,+918148322583,IT,Analyst,Berhampore,Goa,2021-12-06,472049,On Leave
+753,Devika Ramakrishnan,Male,1981-01-18,bhattacharyyabrijesh@example.org,+914740911721,Finance,Manager,Howrah,Chhattisgarh,2021-12-12,341806,On Leave
+754,Yash Seshadri,Male,2003-12-08,fitan39@example.net,+913605289278,Admin,Executive,Vellore,West Bengal,2023-10-21,390855,Resigned
+755,Vinaya Nazareth,Male,1994-04-14,gavinhari@example.org,+910066366719,HR,Executive,Bardhaman,Meghalaya,2025-01-18,1062956,Resigned
+756,Falak Dua,Male,1991-02-19,wardatank@example.org,5228172447,Finance,Manager,Nashik,Meghalaya,2024-10-23,1103746,On Leave
+757,Rayaan Bahl,Female,2004-01-11,jagat55@example.net,2910014507,IT,Manager,Tadipatri,Chhattisgarh,2023-10-18,349523,Resigned
+758,Neelima Khurana,Female,1968-05-22,pranav36@example.net,09803887403,HR,Executive,Gandhidham,Kerala,2024-09-13,1103969,On Leave
+759,Upadhriti Vohra,Male,1999-12-05,chakradevdoshi@example.com,+915329541182,Admin,Analyst,Hindupur,Punjab,2022-04-24,991729,Resigned
+760,Saanvi Mand,Male,1974-04-18,msamra@example.org,,IT,Executive,Bhatpara,Assam,2021-06-20,359421,On Leave
+761,Azad Cheema,Female,1996-12-02,fbehl@example.org,+917786813611,HR,Engineer,Avadi,Himachal Pradesh,2024-06-14,849693,Active
+762,Bakhshi Basak,Male,1973-03-05,charanbahl@example.org,01069261783,Finance,Manager,Amravati,Gujarat,2023-04-13,640288,Resigned
+763,Amara Nayar,Female,1966-01-25,rohanshere@example.com,05481782494,HR,Analyst,Ghaziabad,Tripura,2025-12-27,860582,Resigned
+764,Naksh Date,Female,1990-04-04,diyarege@example.com,0655307255,HR,Executive,Farrukhabad,Andhra Pradesh,2023-09-03,814812,On Leave
+765,Harsh Goda,Male,1970-05-09,pkarpe@example.net,00360077429,IT,Engineer,Unnao,Himachal Pradesh,2021-10-08,341122,Resigned
+766,William Chahal,Male,1989-06-10,,0021099159,Finance,Engineer,Bhubaneswar,Odisha,2023-03-07,739741,On Leave
+767,Dev Bhandari,Female,1981-10-08,tanejabishakha@example.net,+912561837131,Finance,Executive,Salem,Tamil Nadu,2022-06-28,397064,Active
+768,Lucky Jaggi,Male,1979-04-14,nkeer@example.com,1829141128,Admin,Executive,Jehanabad,Bihar,2021-04-23,810445,Active
+769,Wakeeta Sanghvi,Male,1992-05-30,,00183446221,Admin,Executive,Rampur,Andhra Pradesh,2021-11-06,393963,Active
+770,Ishaan Kala,Female,2003-03-23,fsundaram@example.net,00929540611,HR,Executive,Pune,Rajasthan,2023-10-24,350035,On Leave
+771,Nihal Toor,Female,1988-10-30,pthaman@example.com,6960471814,Admin,Manager,Ajmer,Uttar Pradesh,2024-05-15,363091,On Leave
+772,Faris Manne,Male,2000-11-19,opall@example.com,03975734391,Operations,Executive,Faridabad,Rajasthan,2024-08-22,301669,Active
+773,Ekavir Suresh,Female,1984-03-10,oviya67@example.net,5807654123,HR,Executive,Bally,Tripura,2024-06-14,459493,Resigned
+774,Lakshit Ratti,Male,1983-09-02,fitansahota@example.org,06013977585,Finance,Analyst,Amroha,Telangana,2023-06-05,1198053,On Leave
+775,Dhruv Hari,Male,1981-09-12,chakrabartiyashvi@example.com,02410146799,Admin,Manager,Thiruvananthapuram,Kerala,2021-05-21,720593,On Leave
+776,Ladli Sathe,Male,1984-04-11,oparmar@example.net,02337197530,Finance,Executive,Anand,Maharashtra,2023-02-23,1071815,On Leave
+777,Udarsh Gandhi,Male,1985-08-04,egulati@example.org,+917779619559,Admin,Executive,Bihar Sharif,Himachal Pradesh,2024-12-06,335974,On Leave
+778,Amrita Chatterjee,Male,1998-08-17,murtyvinaya@example.net,9477316145,IT,Analyst,Tiruchirappalli,Uttarakhand,2025-08-05,735697,Active
+779,Janya Mannan,Female,1983-06-15,kgupta@example.org,+915806924731,HR,Executive,Jammu,Bihar,2021-10-29,442515,Resigned
+780,Charles Wagle,Male,1965-12-14,ichaudhry@example.net,+919133086942,Admin,Manager,Sambhal,Tripura,2023-11-27,1118144,Active
+781,Nirja Manne,Male,1971-04-02,vinayapandit@example.com,2617735461,Operations,Manager,Mysore,Kerala,2023-08-01,431823,On Leave
+782,Teerth Issac,Female,1991-11-16,mahika84@example.net,+913708653989,Finance,Engineer,Karnal,Karnataka,2023-11-15,442739,Active
+783,Mahika Khosla,Female,1977-07-19,shanalexander@example.net,00190797066,Operations,Analyst,Kolhapur,Goa,2025-04-10,805446,Active
+784,Meghana Goel,Male,1970-05-07,,02837742637,Finance,Analyst,Mira-Bhayandar,Madhya Pradesh,2024-11-29,905893,Resigned
+785,Chakrika Chand,Female,1986-04-25,urmi99@example.net,,Admin,Executive,Avadi,Assam,2023-10-24,470166,On Leave
+786,Mohammed Biswas,Female,1969-01-26,samesh61@example.net,06940137590,IT,Executive,Maheshtala,Bihar,2025-10-28,572599,Resigned
+787,Wridesh Setty,Female,1986-05-14,aashi04@example.net,8421001106,Operations,Manager,Sonipat,Tripura,2023-09-02,894801,Resigned
+788,Jackson Comar,Male,1981-11-27,rachana24@example.org,+910899321873,IT,Analyst,Chandrapur,Tripura,2022-05-01,721085,Resigned
+789,Christopher Korpal,Female,1978-09-12,nravel@example.com,5310716836,IT,Engineer,Bettiah,Assam,2025-04-06,551443,On Leave
+790,Triveni Aurora,Male,1969-08-01,raagini29@example.org,03622677039,Operations,Analyst,Sonipat,Meghalaya,2021-04-09,550296,Resigned
+791,Rudra Karpe,Female,1971-04-07,vivaankeer@example.net,8551227897,Operations,Analyst,Kirari Suleman Nagar,Uttarakhand,2022-05-25,392293,Resigned
+792,Kalpit De,Male,1968-05-03,balhaarpatla@example.org,+913023786931,HR,Engineer,Bhatpara,West Bengal,2024-04-14,388895,Resigned
+793,Zansi Chander,Female,2002-07-05,panditcharles@example.org,2573688612,Finance,Manager,Guna,Gujarat,2021-09-26,978278,Active
+794,Warjas Sarraf,Male,1996-12-11,abeer13@example.net,+912845520145,Finance,Manager,Cuttack,Madhya Pradesh,2025-01-06,369235,Active
+795,Lucky Dyal,Female,1987-01-27,ryangandhi@example.com,05939590559,Admin,Executive,Satna,Telangana,2025-12-13,659504,Resigned
+796,Arjun Vyas,Male,1965-04-21,ukhalsa@example.com,,Admin,Engineer,Gangtok,Kerala,2022-11-15,576225,Active
+797,Irya Nigam,Male,1989-05-29,ubhargava@example.com,07336134565,Finance,Engineer,Indore,Meghalaya,2026-01-11,588915,On Leave
+798,Jagrati Tak,Male,1977-07-07,saimahajan@example.net,02146195652,Admin,Engineer,Medininagar,Odisha,2021-02-23,682794,Active
+799,Indira Mukhopadhyay,Female,1985-10-23,majumdarnirja@example.com,1963471301,Finance,Engineer,Ujjain,Haryana,2021-03-15,411187,Resigned
+800,Janya Chadha,Female,1981-04-24,janyachakrabarti@example.net,+918589554784,Admin,Engineer,Thrissur,Odisha,2025-03-05,936570,Active
+801,Deepa Deo,Male,1982-01-23,pchadha@example.com,6646136083,Admin,Analyst,Kottayam,Mizoram,2025-02-27,1047419,On Leave
+802,Vinaya Ravel,Female,1972-07-18,yadavi67@example.com,,HR,Analyst,Berhampore,Bihar,2023-02-11,1119839,On Leave
+803,Lakshmi Shukla,Male,1980-02-03,pillaiaadi@example.com,+913172777316,Operations,Executive,Karimnagar,Tamil Nadu,2022-05-14,997484,Resigned
+804,Amol Comar,Male,1970-08-31,,04355117713,Operations,Executive,Nangloi Jat,Odisha,2023-01-13,321848,Resigned
+805,Gabriel Patla,Female,1967-03-29,vedika38@example.com,+913149736762,Finance,Engineer,Eluru,Assam,2022-04-03,413454,On Leave
+806,Ira Bail,Male,1995-01-29,ktaneja@example.net,+917273968861,Operations,Analyst,Thiruvananthapuram,Karnataka,2022-12-02,499984,On Leave
+807,Vaishnavi Mangal,Female,2000-09-05,qushi64@example.com,7796673323,Admin,Executive,Dhule,Manipur,2024-07-21,612926,Resigned
+808,Odika Muni,Female,1980-05-31,sharmayashawini@example.net,7482835764,Finance,Analyst,Chittoor,Punjab,2024-07-30,787942,Active
+809,Kevin Bhagat,Male,1974-02-18,,4363019797,Finance,Manager,Singrauli,Rajasthan,2024-09-06,680798,Resigned
+810,Xavier Patla,Male,1987-10-28,tarakamya@example.org,3577036455,HR,Manager,Gaya,Kerala,2024-07-19,988897,Active
+811,Aarav Rai,Male,1999-06-14,csangha@example.com,+912648550530,HR,Analyst,Bhimavaram,Rajasthan,2025-09-15,1174659,Resigned
+812,Lohit Ravel,Female,1984-11-21,deovasana@example.net,1732897338,Operations,Manager,Anantapuram,Karnataka,2025-05-07,869764,Resigned
+813,Gunbir Ben,Female,1999-11-09,mohini86@example.net,0967104206,HR,Analyst,Coimbatore,Nagaland,2022-08-24,710383,On Leave
+814,Ishanvi Jaggi,Male,1982-03-02,dassrachita@example.com,,Operations,Analyst,Burhanpur,Manipur,2025-08-15,1147966,Active
+815,Benjamin Peri,Male,2001-12-09,kchawla@example.com,08696984340,IT,Analyst,Jabalpur,Odisha,2023-05-02,870629,On Leave
+816,Rehaan Nadig,Female,1997-12-21,avi21@example.net,02337500673,Admin,Executive,Bhopal,Arunachal Pradesh,2024-06-28,1199034,Resigned
+817,Gopal De,Male,1969-10-03,gtata@example.net,+910302227592,HR,Executive,Salem,Haryana,2025-06-05,595532,Resigned
+818,Agastya Kant,Female,1989-01-16,fwalla@example.org,,Operations,Executive,Udaipur,Assam,2022-05-15,454941,Resigned
+819,Tanay Lal,Male,1995-12-24,gchatterjee@example.com,0027840612,IT,Manager,Silchar,Mizoram,2025-09-18,1069540,On Leave
+820,Aditya Kakar,Male,1974-01-14,gsubramaniam@example.net,00537141025,IT,Manager,Orai,Meghalaya,2025-01-31,971280,On Leave
+821,Yatan Kalita,Female,2003-01-26,yashviwason@example.com,+910034378036,IT,Engineer,Tiruppur,Manipur,2025-11-19,689449,Resigned
+822,Ekbal Bajaj,Male,1971-06-11,george41@example.org,4584519496,Operations,Engineer,Mumbai,Maharashtra,2025-03-12,458641,On Leave
+823,Vansha Barad,Male,1999-08-19,sakshampillay@example.net,+916419559526,Operations,Manager,Kurnool,Sikkim,2023-10-24,445071,Resigned
+824,Ranveer Chandran,Male,1977-07-02,routfariq@example.com,3874915325,Finance,Analyst,Thiruvananthapuram,Haryana,2024-10-13,1020888,Active
+825,Janaki Barman,Male,1967-10-23,dhritisoman@example.org,06690128082,Admin,Manager,Bulandshahr,Jharkhand,2025-09-01,992079,On Leave
+826,Gagan Goda,Female,1981-03-25,zayyansahota@example.com,01854115967,IT,Analyst,Unnao,Sikkim,2021-08-16,532121,Resigned
+827,Zehaan Balasubramanian,Male,1972-07-11,,,Operations,Executive,Amroha,Kerala,2023-10-31,678012,On Leave
+828,Hemangini Gokhale,Male,1975-09-19,prashadwazir@example.org,8838134268,Operations,Manager,Faridabad,Rajasthan,2025-03-12,509082,Resigned
+829,Shravya Raj,Male,1975-10-19,elijahgrewal@example.net,,IT,Manager,Davanagere,Odisha,2023-05-24,452142,Resigned
+830,Anita Ray,Male,1976-08-03,abduljoshi@example.net,09781381043,Finance,Executive,Indore,Karnataka,2025-03-14,344412,Resigned
+831,Balhaar Oza,Male,1977-10-28,saiagate@example.org,08609172818,IT,Manager,Katni,Bihar,2025-02-06,1169177,Resigned
+832,Azad Ghose,Male,1983-09-02,zsami@example.net,0122290723,Operations,Analyst,Bathinda,Manipur,2021-03-08,1034641,Active
+833,Jacob Balakrishnan,Male,1995-05-16,vohraubika@example.net,+914975844968,Admin,Manager,Asansol,Mizoram,2024-04-04,1092637,Resigned
+834,Alexander Chacko,Male,1983-06-17,darshdada@example.org,07208665059,Admin,Analyst,Junagadh,Punjab,2023-11-11,850894,Resigned
+835,Niharika Chakraborty,Female,1979-06-15,,+913162444173,Operations,Analyst,Nanded,Telangana,2021-05-16,995147,Active
+836,Timothy Bhatia,Male,1996-05-06,,+912605451661,Operations,Manager,Muzaffarpur,Assam,2021-07-09,1104156,Active
+837,Kabir Mittal,Female,1972-12-17,michaelbanik@example.net,+914476336835,IT,Analyst,Sultan Pur Majra,Mizoram,2024-05-21,803509,Active
+838,Bahadurjit Sastry,Male,1979-12-29,shettyaayush@example.net,3426525839,Admin,Engineer,Bijapur,Rajasthan,2023-09-03,316186,On Leave
+839,Aishani Toor,Female,1982-04-09,sekhonamrita@example.net,+917097715631,Operations,Manager,Hindupur,Assam,2023-09-18,314811,On Leave
+840,Aarini Singh,Male,1981-06-05,barmanganga@example.org,9507162905,Operations,Analyst,Vasai-Virar,Telangana,2025-03-22,1146002,On Leave
+841,Thomas Chatterjee,Male,1989-10-10,hkhosla@example.org,04221641102,Admin,Analyst,Siliguri,Goa,2023-03-30,529059,Active
+842,Meghana Palan,Male,1967-09-30,zarnahans@example.com,02826991740,Operations,Analyst,Karimnagar,Punjab,2023-11-16,649025,On Leave
+843,Chatura Saini,Male,1991-11-22,neelimaanand@example.net,+914419674327,Operations,Analyst,Muzaffarpur,Goa,2025-10-26,358927,Active
+844,Yutika Gole,Female,1985-06-30,bhavyasahota@example.com,8448256534,Admin,Executive,Panvel,Chhattisgarh,2025-10-21,865220,On Leave
+845,Falan Roy,Female,1979-12-07,tataupkaar@example.com,04950288310,Finance,Executive,Nangloi Jat,Uttarakhand,2024-07-11,751636,Active
+846,Dayamai Taneja,Male,2004-01-17,wgoswami@example.org,4033766647,Admin,Executive,Darbhanga,Assam,2021-02-08,438501,On Leave
+847,Luke Kaul,Male,1982-04-08,indiraarya@example.org,+910331999478,Admin,Analyst,Gudivada,Odisha,2024-07-31,644163,Active
+848,Vanya Kalla,Male,1993-06-07,carya@example.net,09518128904,IT,Analyst,Srinagar,Mizoram,2021-10-28,664695,Resigned
+849,Nathan Bera,Male,1989-11-28,anthonyraja@example.org,09955688827,IT,Manager,Thiruvananthapuram,Kerala,2022-05-05,1124677,Resigned
+850,Urmi Raghavan,Male,1992-10-16,zchanda@example.net,6546168188,IT,Manager,Barasat,Uttar Pradesh,2022-05-21,778456,Resigned
+851,Upma Kumer,Female,1968-01-14,tmuni@example.org,01073794361,HR,Manager,Rampur,Manipur,2022-09-27,1180063,Resigned
+852,Chasmum Goswami,Female,1991-04-09,wishikade@example.org,+919976988073,Operations,Analyst,Malegaon,West Bengal,2025-08-18,447411,Resigned
+853,Krisha Shankar,Male,1998-03-23,christopher43@example.org,08373961689,Finance,Engineer,Rajkot,West Bengal,2021-09-05,1052897,Active
+854,Christopher Sur,Female,2003-10-29,noah54@example.org,03126498817,Admin,Executive,Tiruchirappalli,Maharashtra,2025-07-09,982039,On Leave
+855,Charvi Ghose,Female,1980-05-23,echoudhry@example.org,6957600393,Finance,Executive,Jabalpur,Karnataka,2025-07-02,992768,On Leave
+856,Indrajit Savant,Female,2002-04-23,rishi76@example.net,+917090250112,Finance,Executive,Dehri,Tripura,2023-07-20,335763,On Leave
+857,Yachana Swaminathan,Male,1981-01-18,jason50@example.com,1733384155,HR,Engineer,Ambala,Bihar,2025-11-30,847540,Resigned
