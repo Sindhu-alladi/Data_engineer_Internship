@@ -75,6 +75,8 @@ Healthcare
 
 Finance
 
+[View Task 1](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-1)
+
 ### Task 2: Single Transformation – Multiple Outputs
 
 Converted CSV files into TXT, JSON, and XML formats.
@@ -82,6 +84,8 @@ Converted CSV files into TXT, JSON, and XML formats.
 Implemented transformations in a single Pentaho transformation.
 
 Understood and documented each transformation step.
+
+[View Task 2](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-2)
 
 ### Task 3: Multiple Transformations + Job Creation
 
@@ -101,6 +105,8 @@ If transformation fails → error message stored in an error folder
 
 Successful transformations routed correctly
 
+[View Task 3](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-3)
+
 ### Task 4: File to Database Table
 
 Loaded:
@@ -110,6 +116,8 @@ TXT → MySQL table
 JSON → MySQL table
 
 XML → MySQL table
+
+[View Task 4](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-4)
 
 ### Task 5: End-to-End ETL with Notification
 
@@ -123,17 +131,23 @@ Loaded transformed data into MySQL tables
 
 Configured success email notification for successful job execution
 
+[View Task 5](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-5)
+
 ### Task 6: Table Mapping
 
 Mapped Employee table → Patient table
 
 Implemented transformations using Pentaho mapping steps
 
+[View Task 6](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-6)
+
 ### Task 7: Pentaho Parameters & Scheduling
 
 Implemented Pentaho parameters
 
 Learned job scheduling concepts
+
+[View Task 7](https://github.com/Sindhu-alladi/Data_engineer_Internship/tree/main/ETL_process/task-7)
 
 ## MySQL & SQL Practice
 
