@@ -1,0 +1,17 @@
+2026/01/20 18:14:33 - Shell - Running on platform : Windows 10
+2026/01/20 18:14:33 - Shell - Executing command : cmd.exe /C "C:\Users\swapn\AppData\Local\Temp\kettle_c5744ea1-f5fd-11f0-a0a2-df024855aff2shell.bat"
+2026/01/20 18:14:33 - Shell - (stdout) 
+2026/01/20 18:14:33 - Shell - (stdout) D:\sindhu\csv files>"C:\Users\swapn\AppData\Local\Microsoft\WindowsApps\python.exe" "D:\sindhu\csv files\employee.py" 
+2026/01/20 21:51:09 - Shell - Running on platform : Windows 10
+2026/01/20 21:51:09 - Shell - Executing command : cmd.exe /C "C:\Users\swapn\AppData\Local\Temp\kettle_07846732-f61c-11f0-a0a2-df024855aff2shell.bat"
+2026/01/20 21:51:09 - Shell - (stdout) 
+2026/01/20 21:51:09 - Shell - (stdout) D:\sindhu\csv files>"C:\Users\swapn\AppData\Local\Microsoft\WindowsApps\python.exe" "D:\sindhu\csv files\employee.py" 
+2026/01/20 21:51:09 - Shell - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : (stderr) C:\Users\swapn\AppData\Local\Microsoft\WindowsApps\python.exe: can't open file 'D:\\sindhu\\csv files\\employee.py': [Errno 2] No such file or directory
+2026/01/20 21:52:06 - Shell - Running on platform : Windows 10
+2026/01/20 21:52:06 - Shell - Executing command : cmd.exe /C "C:\Users\swapn\AppData\Local\Temp\kettle_29616103-f61c-11f0-a0a2-df024855aff2shell.bat"
+2026/01/20 21:52:06 - Shell - (stdout) 
+2026/01/20 21:52:06 - Shell - (stdout) D:\sindhu\csv files>"C:\Users\swapn\AppData\Local\Microsoft\WindowsApps\python.exe" "D:\sindhu\csv files\employee.py" 
+2026/01/20 21:55:01 - Shell - Running on platform : Windows 10
+2026/01/20 21:55:01 - Shell - Executing command : cmd.exe /C "C:\Users\swapn\AppData\Local\Temp\kettle_91f33ef4-f61c-11f0-a0a2-df024855aff2shell.bat"
+2026/01/20 21:55:01 - Shell - (stdout) 
+2026/01/20 21:55:01 - Shell - (stdout) D:\sindhu\csv files>"C:\Users\swapn\AppData\Local\Microsoft\WindowsApps\python.exe" "D:\sindhu\csv files\source\employee.py" 
